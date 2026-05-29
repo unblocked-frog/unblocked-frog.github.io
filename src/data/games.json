@@ -24,14 +24,6 @@
     "category": "Arcade"
   },
   {
-    "id": "drunken-duel",
-    "name": "Drunken Duel",
-    "url": "https://www.onlinegames.io/games/2024/code/2/drunken-duel/index.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/698/responsive/Drunken-Duel-lg.jpg",
-    "description": "Intense physics-based shooting duel. Can you hit your target while swaying?",
-    "category": "Action"
-  },
-  {
     "id": "99-nights-forest",
     "name": "99 Nights in the Forest",
     "url": "https://cloud.onlinegames.io/games/2026/unity/99-nights-in-the-forest-survival/game.html",
@@ -46,30 +38,6 @@
     "thumbnail": "https://www.onlinegames.io/media/posts/857/responsive/troll-level-online-lg.jpg",
     "description": "Expect the unexpected in this funny and troll-filled puzzle platformer.",
     "category": "Puzzle"
-  },
-  {
-    "id": "velocity-rush",
-    "name": "Velocity Rush",
-    "url": "https://cloud.onlinegames.io/games/2026/unity/velocity-rush/game.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/1265/responsive/velocity-rush-lg.webp",
-    "description": "High-octane racing and velocity. Fast cars and challenging tracks await.",
-    "category": "Racing"
-  },
-  {
-    "id": "mob-city",
-    "name": "Mob City",
-    "url": "https://www.onlinegames.io/games/2021/unity3/mob-city/index.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/418/responsive/Mob-City-lg.jpg",
-    "description": "Dominate the urban underworld in this strategic crime simulator.",
-    "category": "Action"
-  },
-  {
-    "id": "backflip-challenge",
-    "name": "Backflip Challenge",
-    "url": "https://cloud.onlinegames.io/games/2026/unity/backflip-challenge/game.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/1203/responsive/backflip-challenge-lg.webp",
-    "description": "Master the art of the backflip in various locations and settings.",
-    "category": "Sports"
   },
   {
     "id": "crazy-drifter",
@@ -136,30 +104,6 @@
     "category": "Racing"
   },
   {
-    "id": "car-football",
-    "name": "Car Football",
-    "url": "https://www.onlinegames.io/games/2023/construct/198/car-football/index.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/405/responsive/Car-Football-lg.jpg",
-    "description": "Soccer meets motor racing. Score goals using high-speed customized cars.",
-    "category": "Sports"
-  },
-  {
-    "id": "basket-hoop",
-    "name": "Basket Hoop",
-    "url": "https://cloud.onlinegames.io/games/2024/construct/311/basket-hoop/index-og.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/843/responsive/Basket-Hoop-lg.jpg",
-    "description": "Perfect your basketball shots and aim for the hoop in this arcade game.",
-    "category": "Sports"
-  },
-  {
-    "id": "burnout-city",
-    "name": "Burnout City",
-    "url": "https://cloud.onlinegames.io/games/2024/unity/burnout-city/index-og.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/861/responsive/burnoutcity-lg.jpg",
-    "description": "Evade the police and cause chaos in the urban streets of Burnout City.",
-    "category": "Action"
-  },
-  {
     "id": "checkout-frenzy",
     "name": "Checkout Frenzy",
     "url": "https://cloud.onlinegames.io/games/2025/unity/checkout-frenzy/index-og.html",
@@ -173,54 +117,6 @@
     "url": "https://cloud.onlinegames.io/games/2025/unity/fast-food-rush/index-og.html",
     "thumbnail": "https://www.onlinegames.io/media/posts/979/responsive/fast-food-rush-lg.jpg",
     "description": "Cook and serve fast food as quickly as possible to hungry customers.",
-    "category": "Simulator"
-  },
-  {
-    "id": "geometry-vector",
-    "name": "Geometry Vector",
-    "url": "https://cloud.onlinegames.io/games/2026/construct/329/geometry-vector/game.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/1246/responsive/geometry-vector-lg.webp",
-    "description": "Navigate through vector-styled geometry landscapes full of neon obstacles.",
-    "category": "Arcade"
-  },
-  {
-    "id": "police-chase-drifter",
-    "name": "Police Chase Drifter",
-    "url": "https://www.onlinegames.io/games/2021/3/police-chase-drifter/index.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/155/responsive/Police-Chase-Drifter-Online-lg.jpg",
-    "description": "Drift away from the police in high-speed chases across the city.",
-    "category": "Racing"
-  },
-  {
-    "id": "monster-truck-mountain-climb",
-    "name": "Monster Truck Mountain Climb",
-    "url": "https://cloud.onlinegames.io/games/2021/2/monster-truck-mountain-climb/index-og.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/924/responsive/monster-truck-mountain-climb-lg.jpg",
-    "description": "Crawl over mountains and rough terrain in massive monster trucks.",
-    "category": "Racing"
-  },
-  {
-    "id": "crazy-strike-force",
-    "name": "Crazy Strike Force",
-    "url": "https://www.onlinegames.io/games/2023/unity/crazy-strike-force/index.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/366/responsive/Crazy-Strike-Force-lg.jpg",
-    "description": "Engage in intense first-person combat against enemy strike forces.",
-    "category": "Action"
-  },
-  {
-    "id": "gta-simulator",
-    "name": "GTA Simulator",
-    "url": "https://www.onlinegames.io/games/2023/unity2/gta-simulator/index.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/416/responsive/GTA-Simulator-lg.jpg",
-    "description": "Explore the open world city and engage in various criminal missions.",
-    "category": "Action"
-  },
-  {
-    "id": "cat-simulator",
-    "name": "Cat Simulator",
-    "url": "https://www.onlinegames.io/games/2022/unity4/cat-simulator/index.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/330/responsive/Cat-Simulator-Online-lg.jpg",
-    "description": "Live the life of a mischievous cat. Explore the house and cause havoc.",
     "category": "Simulator"
   },
   {
@@ -304,14 +200,6 @@
     "category": "Action"
   },
   {
-    "id": "kick-the-dummy",
-    "name": "Kick The Dummy",
-    "url": "https://www.onlinegames.io/games/2022/construct/153/kick-the-dummy/index.html",
-    "thumbnail": "https://www.onlinegames.io/media/posts/414/responsive/Kick-The-Dummy-Game-lg.jpg",
-    "description": "Unleash your stress by kicking and hitting the physics-based dummy.",
-    "category": "Action"
-  },
-  {
     "id": "steal-brainrot-heist",
     "name": "Steal Brainrot Heist",
     "url": "https://cloud.onlinegames.io/games/2026/unity/steal-brainrot-heist/game.html",
@@ -390,14 +278,6 @@
     "thumbnail": "https://cdn.webgamer.io/games/dungeon-survivors/dungeon-survivors-1.480x.50pc.avif",
     "description": "How long can you survive the depths of the dungeon?",
     "category": "Action"
-  },
-  {
-    "id": "2048",
-    "name": "2048",
-    "url": "https://hg-2048.netlify.app/",
-    "thumbnail": "https://cdn.webgamer.io/games/2048/2048.480x.50pc.avif",
-    "description": "The addictive tile-sliding puzzle game.",
-    "category": "Puzzle"
   },
   {
     "id": "dungeons-n-ducks",
@@ -608,14 +488,6 @@
     "category": "Action"
   },
   {
-    "id": "bloxd-io",
-    "name": "Bloxd.io",
-    "url": "https://bloxd.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/bloxd-io/bloxd-io.480x.85pc.webp",
-    "description": "Minecraft-style multiplayer block building and survival game. Build, explore, and survive!",
-    "category": "Adventure"
-  },
-  {
     "id": "cryzen-io",
     "name": "Cryzen.io",
     "url": "https://cryzen.io/",
@@ -632,35 +504,11 @@
     "category": "Action"
   },
   {
-    "id": "drift-io",
-    "name": "Drift.io",
-    "url": "https://drift-io.com/",
-    "thumbnail": "https://cdn.webgamer.io/games/drift-io/drift-io.480x.85pc.webp",
-    "description": "Multiplayer drifting game. Slide around corners and outmaneuver your opponents!",
-    "category": "Racing"
-  },
-  {
-    "id": "eonfall",
-    "name": "Eonfall",
-    "url": "https://eonfall.com/",
-    "thumbnail": "https://cdn.webgamer.io/games/eonfall/eonfall.480x.85pc.webp",
-    "description": "Epic fantasy RPG adventure with stunning graphics. Battle monsters and level up!",
-    "category": "Adventure"
-  },
-  {
     "id": "poxel-io",
     "name": "Poxel.io",
     "url": "https://poxel.io/",
     "thumbnail": "https://cdn.webgamer.io/games/poxel-io/poxel-io.480x.85pc.webp",
     "description": "Voxel-based multiplayer battle game. Build cover and outsmart your enemies!",
-    "category": "Action"
-  },
-  {
-    "id": "skillfite",
-    "name": "SkillFite",
-    "url": "https://skillfite.com/",
-    "thumbnail": "https://cdn.webgamer.io/games/skillfite/skillfite.480x.85pc.webp",
-    "description": "Competitive multiplayer fighting game that rewards pure skill over anything else.",
     "category": "Action"
   },
   {
@@ -670,14 +518,6 @@
     "thumbnail": "https://cdn.webgamer.io/games/squadblast/squadblast.480x.85pc.webp",
     "description": "Team-based multiplayer action game. Coordinate with your squad to claim victory!",
     "category": "Action"
-  },
-  {
-    "id": "golf-mania",
-    "name": "Golf Mania",
-    "url": "https://webgamer.io/en/g/golf-mania",
-    "thumbnail": "https://cdn.webgamer.io/games/golf-mania/golf-mania.480x.85pc.webp",
-    "description": "Fun and addictive mini golf game with creative courses and trick shots.",
-    "category": "Sports"
   },
   {
     "id": "i-want-it-all",
@@ -704,30 +544,6 @@
     "category": "Strategy"
   },
   {
-    "id": "sword-masters-io",
-    "name": "Sword Masters",
-    "url": "https://webgamer.io/en/g/sword-masters-io",
-    "thumbnail": "https://cdn.webgamer.io/games/sword-masters-io/sword-masters-io.480x.85pc.webp",
-    "description": "Slash and dash in this intense sword-fighting multiplayer arena game.",
-    "category": "Action"
-  },
-  {
-    "id": "tanks-3d",
-    "name": "Tanks 3D",
-    "url": "https://webgamer.io/en/g/tanks-3d",
-    "thumbnail": "https://cdn.webgamer.io/games/tanks-3d/tanks-3d.480x.85pc.webp",
-    "description": "3D tank warfare with real-time multiplayer battles across multiple arenas.",
-    "category": "Action"
-  },
-  {
-    "id": "ev-io",
-    "name": "ev.io",
-    "url": "https://ev.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/ev-io/ev-io.480x.85pc.webp",
-    "description": "Futuristic multiplayer FPS shooter with fast movement and sci-fi weapons.",
-    "category": "Action"
-  },
-  {
     "id": "kour-io",
     "name": "Kour.io",
     "url": "https://kour.io/",
@@ -752,51 +568,11 @@
     "category": "Action"
   },
   {
-    "id": "deadswitch-3",
-    "name": "Deadswitch 3",
-    "url": "https://deadswitch3.com/",
-    "thumbnail": "https://cdn.webgamer.io/games/deadswitch-3/deadswitch-3.480x.85pc.webp",
-    "description": "Classic 2D side-scrolling military shooter with tons of modes and weapons.",
-    "category": "Action"
-  },
-  {
-    "id": "dinogen-online",
-    "name": "Dinogen Online",
-    "url": "https://dinogenonline.com/",
-    "thumbnail": "https://cdn.webgamer.io/games/dinogen-online/dinogen-online.480x.85pc.webp",
-    "description": "Top-down shooter in a world full of dinosaurs. Survive and fight through chaos!",
-    "category": "Action"
-  },
-  {
     "id": "rekill-io",
     "name": "reKILL",
     "url": "https://rekill.io/",
     "thumbnail": "https://cdn.webgamer.io/games/rekill-io/rekill-io.480x.85pc.webp",
     "description": "Pixel-art multiplayer shooter with smooth controls and competitive gameplay.",
-    "category": "Action"
-  },
-  {
-    "id": "shell-shockers",
-    "name": "Shell Shockers",
-    "url": "https://shellshock.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/shell-shockers/shell-shockers.480x.85pc.webp",
-    "description": "Play as an egg armed with guns in this hilarious multiplayer FPS shooter!",
-    "category": "Action"
-  },
-  {
-    "id": "bad-egg",
-    "name": "Bad Egg",
-    "url": "https://bad-egg.com/",
-    "thumbnail": "https://cdn.webgamer.io/games/bad-egg/bad-egg.480x.85pc.webp",
-    "description": "Egg-themed battle royale game with fun weapons and chaotic multiplayer action.",
-    "category": "Action"
-  },
-  {
-    "id": "earths-greatest-defender",
-    "name": "Earth's Greatest Defender",
-    "url": "https://webgamer.io/en/g/earths-greatest-defender",
-    "thumbnail": "https://cdn.webgamer.io/games/earths-greatest-defender/earths-greatest-defender.480x.85pc.webp",
-    "description": "Defend Earth from alien waves in this action-packed shooter platformer.",
     "category": "Action"
   },
   {
@@ -816,75 +592,11 @@
     "category": "Adventure"
   },
   {
-    "id": "chrome-shift-genesis",
-    "name": "Chrome Shift: Genesis",
-    "url": "https://webgamer.io/en/g/chrome-shift-genesis",
-    "thumbnail": "https://cdn.webgamer.io/games/chrome-shift-genesis/chrome-shift-genesis.480x.85pc.webp",
-    "description": "Sci-fi action RPG with stunning visuals. Fight through futuristic environments!",
-    "category": "Adventure"
-  },
-  {
-    "id": "sentiel",
-    "name": "Sentiel",
-    "url": "https://webgamer.io/en/g/sentiel",
-    "thumbnail": "https://cdn.webgamer.io/games/sentiel/sentiel.480x.85pc.webp",
-    "description": "Tower defense meets action RPG. Protect your base and unleash powerful abilities!",
-    "category": "Strategy"
-  },
-  {
-    "id": "up-together",
-    "name": "Up Together",
-    "url": "https://webgamer.io/en/g/up-together",
-    "thumbnail": "https://cdn.webgamer.io/games/up-together/up-together.480x.85pc.webp",
-    "description": "Cooperative multiplayer platformer. Work together to climb higher and higher!",
-    "category": "Adventure"
-  },
-  {
-    "id": "edelweiss",
-    "name": "Edelweiss",
-    "url": "https://webgamer.io/en/g/edelweiss",
-    "thumbnail": "https://cdn.webgamer.io/games/edelweiss/edelweiss.480x.85pc.webp",
-    "description": "Beautiful platformer with a touching story. Jump through breathtaking mountain scenery.",
-    "category": "Arcade"
-  },
-  {
     "id": "lurkers-io",
     "name": "Lurkers.io",
     "url": "https://lurkers.io/",
     "thumbnail": "https://cdn.webgamer.io/games/lurkers-io/lurkers-io.480x.85pc.webp",
     "description": "Multiplayer hide and seek survival. Lurk in the shadows and outlast your opponents.",
-    "category": "Adventure"
-  },
-  {
-    "id": "ninja-vs-evilcorp",
-    "name": "Ninja vs EVILCORP",
-    "url": "https://webgamer.io/en/g/ninja-vs-evilcorp",
-    "thumbnail": "https://cdn.webgamer.io/games/ninja-vs-evilcorp/ninja-vs-evilcorp.480x.85pc.webp",
-    "description": "Stealthy ninja action platformer. Take down EVILCORP one enemy at a time!",
-    "category": "Action"
-  },
-  {
-    "id": "mini-mana",
-    "name": "Mini Mana",
-    "url": "https://webgamer.io/en/g/mini-mana",
-    "thumbnail": "https://cdn.webgamer.io/games/mini-mana/mini-mana.480x.85pc.webp",
-    "description": "Cute mini RPG adventure. Collect mana and battle quirky enemies across colorful worlds.",
-    "category": "Adventure"
-  },
-  {
-    "id": "path-to-glory",
-    "name": "Path to Glory",
-    "url": "https://webgamer.io/en/g/path-to-glory",
-    "thumbnail": "https://cdn.webgamer.io/games/path-to-glory/path-to-glory.480x.85pc.webp",
-    "description": "Strategic battle game. Build your deck and conquer enemies on the path to glory.",
-    "category": "Strategy"
-  },
-  {
-    "id": "mine-blocks",
-    "name": "Mine Blocks",
-    "url": "https://mineblocks.com/",
-    "thumbnail": "https://cdn.webgamer.io/games/mine-blocks/mine-blocks.480x.85pc.webp",
-    "description": "2D Minecraft-inspired browser game. Mine, craft, and build your own world!",
     "category": "Adventure"
   },
   {
@@ -902,118 +614,6 @@
     "thumbnail": "https://cdn.webgamer.io/games/hordes-io/hordes-io.480x.85pc.webp",
     "description": "Massively multiplayer RPG. Join a faction, fight enemies, and rule the land!",
     "category": "Adventure"
-  },
-  {
-    "id": "ovivo",
-    "name": "OVIVO",
-    "url": "https://webgamer.io/en/g/ovivo",
-    "thumbnail": "https://cdn.webgamer.io/games/ovivo/ovivo.480x.85pc.webp",
-    "description": "Minimalist black and white platformer. Switch between realms to solve unique puzzles.",
-    "category": "Puzzle"
-  },
-  {
-    "id": "bubbits",
-    "name": "Bubbits",
-    "url": "https://webgamer.io/en/g/bubbits",
-    "thumbnail": "https://cdn.webgamer.io/games/bubbits/bubbits.480x.85pc.webp",
-    "description": "Competitive multiplayer puzzle game. Pop bubbles faster than your opponent to win!",
-    "category": "Puzzle"
-  },
-  {
-    "id": "carillion",
-    "name": "Carillion",
-    "url": "https://webgamer.io/en/g/carillion",
-    "thumbnail": "https://cdn.webgamer.io/games/carillion/carillion.480x.85pc.webp",
-    "description": "Musical puzzle game where you arrange bells and chimes to create melodies.",
-    "category": "Puzzle"
-  },
-  {
-    "id": "kinda-hard-golf",
-    "name": "Kinda Hard Golf",
-    "url": "https://webgamer.io/en/g/kinda-hard-golf",
-    "thumbnail": "https://cdn.webgamer.io/games/kinda-hard-golf/kinda-hard-golf.480x.85pc.webp",
-    "description": "Physics-based golf with tricky courses. It is kinda hard, but very satisfying!",
-    "category": "Sports"
-  },
-  {
-    "id": "zoo-drop",
-    "name": "ZooDrop",
-    "url": "https://webgamer.io/en/g/zoo-drop",
-    "thumbnail": "https://cdn.webgamer.io/games/zoo-drop/zoo-drop.480x.85pc.webp",
-    "description": "Match and drop colorful zoo animals in this addictive puzzle game.",
-    "category": "Puzzle"
-  },
-  {
-    "id": "tower-stack",
-    "name": "Tower Stack",
-    "url": "https://webgamer.io/en/g/tower-stack",
-    "thumbnail": "https://cdn.webgamer.io/games/tower-stack/tower-stack.480x.85pc.webp",
-    "description": "Stack blocks as high as you can without toppling the tower. Simple but addictive!",
-    "category": "Puzzle"
-  },
-  {
-    "id": "pipedown",
-    "name": "Pipedown",
-    "url": "https://webgamer.io/en/g/pipedown",
-    "thumbnail": "https://cdn.webgamer.io/games/pipedown/pipedown.480x.85pc.webp",
-    "description": "Connect the pipes before the water flows in this satisfying puzzle game.",
-    "category": "Puzzle"
-  },
-  {
-    "id": "chroma",
-    "name": "Chroma",
-    "url": "https://webgamer.io/en/g/chroma",
-    "thumbnail": "https://cdn.webgamer.io/games/chroma/chroma.480x.85pc.webp",
-    "description": "Color-matching puzzle game with beautiful visuals and brain-teasing challenges.",
-    "category": "Puzzle"
-  },
-  {
-    "id": "shift",
-    "name": "Shift",
-    "url": "https://webgamer.io/en/g/shift",
-    "thumbnail": "https://cdn.webgamer.io/games/shift/shift.480x.85pc.webp",
-    "description": "Mind-bending puzzle platformer. Flip the world upside down to find the exit!",
-    "category": "Puzzle"
-  },
-  {
-    "id": "bubbly-tim",
-    "name": "Bubbly Tim's Time Bubble Trouble",
-    "url": "https://webgamer.io/en/g/bubbly-tim",
-    "thumbnail": "https://cdn.webgamer.io/games/bubbly-tim/bubbly-tim.480x.85pc.webp",
-    "description": "Help Bubbly Tim navigate time-bending bubble puzzles in this quirky adventure.",
-    "category": "Puzzle"
-  },
-  {
-    "id": "raccoon-retail",
-    "name": "Raccoon Retail",
-    "url": "https://webgamer.io/en/g/raccoon-retail",
-    "thumbnail": "https://cdn.webgamer.io/games/raccoon-retail/raccoon-retail.480x.85pc.webp",
-    "description": "Run a shop as a raccoon! Hilarious retail management game with chaotic customers.",
-    "category": "Arcade"
-  },
-  {
-    "id": "egg-hunt",
-    "name": "Egg Hunt",
-    "url": "https://webgamer.io/en/g/egg-hunt",
-    "thumbnail": "https://cdn.webgamer.io/games/egg-hunt/egg-hunt.480x.85pc.webp",
-    "description": "Find and collect hidden eggs in this fun Easter-themed scavenger hunt game.",
-    "category": "Arcade"
-  },
-  {
-    "id": "crazy-pumpkin",
-    "name": "Crazy Pumpkin",
-    "url": "https://webgamer.io/en/g/crazy-pumpkin",
-    "thumbnail": "https://cdn.webgamer.io/games/crazy-pumpkin/crazy-pumpkin.480x.85pc.webp",
-    "description": "Smash pumpkins and chain combos in this wild and crazy Halloween arcade game.",
-    "category": "Arcade"
-  },
-  {
-    "id": "double-dodgers",
-    "name": "Double Dodgers",
-    "url": "https://webgamer.io/en/g/double-dodgers",
-    "thumbnail": "https://cdn.webgamer.io/games/double-dodgers/double-dodgers.480x.85pc.webp",
-    "description": "Control two characters at once and dodge incoming obstacles. Double the challenge!",
-    "category": "Arcade"
   },
   {
     "id": "ducklings",
@@ -1037,14 +637,6 @@
     "url": "https://wizardwars.online/",
     "thumbnail": "https://cdn.webgamer.io/games/wizard-wars/wizard-wars.480x.85pc.webp",
     "description": "Cast spells and battle other wizards in this magical multiplayer arena game.",
-    "category": "Strategy"
-  },
-  {
-    "id": "captain-forever-io",
-    "name": "CaptainForever.io",
-    "url": "https://captainforever.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/captain-forever-io/captain-forever-io.480x.85pc.webp",
-    "description": "Build your spaceship piece by piece and battle enemy ships in this unique shooter.",
     "category": "Strategy"
   },
   {
@@ -1072,84 +664,12 @@
     "category": "Strategy"
   },
   {
-    "id": "kingdom-of-pixels",
-    "name": "Kingdom of Pixels",
-    "url": "https://kingdomofpixels.com/",
-    "thumbnail": "https://cdn.webgamer.io/games/kingdom-of-pixels/kingdom-of-pixels.480x.85pc.webp",
-    "description": "MOBA-style pixel art game. Build your team and destroy the enemy kingdom!",
-    "category": "Strategy"
-  },
-  {
-    "id": "lord-of-the-harvest",
-    "name": "Lord of the Harvest",
-    "url": "https://webgamer.io/en/g/lord-of-the-harvest",
-    "thumbnail": "https://cdn.webgamer.io/games/lord-of-the-harvest/lord-of-the-harvest.480x.85pc.webp",
-    "description": "Farm and fight in this unique blend of farming simulator and tower defense.",
-    "category": "Strategy"
-  },
-  {
-    "id": "the-race",
-    "name": "The Race",
-    "url": "https://webgamer.io/en/g/the-race",
-    "thumbnail": "https://cdn.webgamer.io/games/the-race/the-race.480x.85pc.webp",
-    "description": "Minimalist top-down racing game with tight controls and challenging tracks.",
-    "category": "Racing"
-  },
-  {
-    "id": "the-race-2",
-    "name": "The Race – Season 2",
-    "url": "https://webgamer.io/en/g/the-race-2",
-    "thumbnail": "https://cdn.webgamer.io/games/the-race-2/the-race-2.480x.85pc.webp",
-    "description": "The sequel to The Race with new tracks, cars, and even more intense competition!",
-    "category": "Racing"
-  },
-  {
-    "id": "threltemania",
-    "name": "Threltemania",
-    "url": "https://webgamer.io/en/g/threltemania",
-    "thumbnail": "https://cdn.webgamer.io/games/threltemania/threltemania.480x.85pc.webp",
-    "description": "Physics-based driving mayhem. Crash, flip, and race through wild obstacle courses!",
-    "category": "Racing"
-  },
-  {
-    "id": "slow-roads",
-    "name": "Slow Roads",
-    "url": "https://slowroads.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/slow-roads/slow-roads.480x.85pc.webp",
-    "description": "Relaxing endless driving game through beautiful procedurally generated landscapes.",
-    "category": "Racing"
-  },
-  {
     "id": "ships-3d",
     "name": "Ships 3D",
     "url": "https://webgamer.io/en/g/ships-3d",
     "thumbnail": "https://cdn.webgamer.io/games/ships-3d/ships-3d.480x.85pc.webp",
     "description": "3D naval battles with realistic ships. Sink enemy fleets in epic ocean warfare!",
     "category": "Strategy"
-  },
-  {
-    "id": "mana-blade",
-    "name": "Mana Blade",
-    "url": "https://webgamer.io/en/g/mana-blade",
-    "thumbnail": "https://cdn.webgamer.io/games/mana-blade/mana-blade.640x.85pc.webp",
-    "description": "Original WebGamer hack-and-slash RPG. Wield magical blades against waves of enemies!",
-    "category": "Action"
-  },
-  {
-    "id": "killover",
-    "name": "KILLOVER",
-    "url": "https://webgamer.io/en/g/killover",
-    "thumbnail": "https://cdn.webgamer.io/games/killover/killover.480x.85pc.webp",
-    "description": "Intense multiplayer shooter with tactical gameplay and fast-paced action.",
-    "category": "Action"
-  },
-  {
-    "id": "cybernetic-serenade",
-    "name": "Cybernetic Serenade",
-    "url": "https://webgamer.io/en/g/cybernetic-serenade",
-    "thumbnail": "https://cdn.webgamer.io/games/cybernetic-serenade/cybernetic-serenade.480x.85pc.webp",
-    "description": "Rhythm-based music game set in a neon cyberpunk world. Hit the beats perfectly!",
-    "category": "Arcade"
   },
   {
     "id": "basket-bros",
@@ -1160,43 +680,11 @@
     "category": "Sports"
   },
   {
-    "id": "slope-game",
-    "name": "Slope",
-    "url": "https://slope-game.github.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/slope/slope.480x.85pc.webp",
-    "description": "Legendary endless runner - control a ball speeding down a neon 3D slope!",
-    "category": "Arcade"
-  },
-  {
-    "id": "paper-io-2",
-    "name": "Paper.io 2",
-    "url": "https://paper-io.com/",
-    "thumbnail": "https://cdn.webgamer.io/games/paper-io-2/paper-io-2.480x.85pc.webp",
-    "description": "Conquer territory by drawing lines and surrounding areas. Don't let others cut you!",
-    "category": "Arcade"
-  },
-  {
-    "id": "hole-io",
-    "name": "Hole.io",
-    "url": "https://hole-io.com/",
-    "thumbnail": "https://cdn.webgamer.io/games/hole-io/hole-io.480x.85pc.webp",
-    "description": "Play as a black hole and consume everything in sight. Grow bigger than your rivals!",
-    "category": "Arcade"
-  },
-  {
     "id": "zombsroyale-io",
     "name": "ZombsRoyale.io",
     "url": "https://zombsroyale.io/",
     "thumbnail": "https://cdn.webgamer.io/games/zombsroyale-io/zombsroyale-io.480x.85pc.webp",
     "description": "Fast-paced 2D battle royale game. Be the last player standing to win!",
-    "category": "Action"
-  },
-  {
-    "id": "yohoho-io",
-    "name": "YoHoHo.io",
-    "url": "https://yohoho.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/yohoho-io/yohoho-io.480x.85pc.webp",
-    "description": "Pirate battle royale on a shrinking island. Slash opponents into the sea!",
     "category": "Action"
   },
   {
@@ -1214,14 +702,6 @@
     "thumbnail": "https://cdn.webgamer.io/games/hexanaut-io/hexanaut-io.480x.85pc.webp",
     "description": "Capture hexagonal territory and outsmart opponents in this strategic .io game.",
     "category": "Strategy"
-  },
-  {
-    "id": "powerline-io",
-    "name": "Powerline.io",
-    "url": "https://powerline.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/powerline-io/powerline-io.480x.85pc.webp",
-    "description": "Snake-style multiplayer game with neon power lines. Cut off rivals to eliminate them!",
-    "category": "Arcade"
   },
   {
     "id": "little-big-snake",
@@ -1248,36 +728,12 @@
     "category": "Action"
   },
   {
-    "id": "blumgi-castle",
-    "name": "Blumgi Castle",
-    "url": "https://webgamer.io/en/g/blumgi-castle",
-    "thumbnail": "https://cdn.webgamer.io/games/blumgi-castle/blumgi-castle.480x.85pc.webp",
-    "description": "Physics-based medieval siege game. Fling your knight and destroy enemy castles!",
-    "category": "Arcade"
-  },
-  {
-    "id": "openfront-io",
-    "name": "OpenFront.io",
-    "url": "https://openfront.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/openfront-io/openfront-io.480x.85pc.webp",
-    "description": "Real-time strategy war game. Expand your nation, form alliances, and crush rivals!",
-    "category": "Strategy"
-  },
-  {
     "id": "evowars-io",
     "name": "EvoWars.io",
     "url": "https://evowars.io/",
     "thumbnail": "https://cdn.webgamer.io/games/evowars-io/evowars-io.480x.85pc.webp",
     "description": "Evolve your warrior by defeating enemies and growing into a powerful giant fighter.",
     "category": "Action"
-  },
-  {
-    "id": "mope-io",
-    "name": "Mope.io",
-    "url": "https://mope.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/mope-io/mope-io.480x.85pc.webp",
-    "description": "Start as a tiny mouse and eat your way up the food chain to become a dragon!",
-    "category": "Arcade"
   },
   {
     "id": "frontwars-io",
@@ -1312,22 +768,6 @@
     "category": "Action"
   },
   {
-    "id": "a-number-from-the-ghost",
-    "name": "A Number From the Ghost",
-    "url": "https://webgamer.io/en/g/a-number-from-the-ghost",
-    "thumbnail": "https://cdn.webgamer.io/games/a-number-from-the-ghost/a-number-from-the-ghost.480x.85pc.webp",
-    "description": "Spooky number puzzle game with a mysterious ghost guide. Solve eerie riddles!",
-    "category": "Puzzle"
-  },
-  {
-    "id": "tanko-io",
-    "name": "Tanko.io",
-    "url": "https://tanko.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/tanko-io/tanko-io.480x.85pc.webp",
-    "description": "Drive tanks and battle enemies in this top-down multiplayer tank warfare game.",
-    "category": "Action"
-  },
-  {
     "id": "shipo-io",
     "name": "Shipo.io",
     "url": "https://shipo.io/",
@@ -1336,11 +776,187 @@
     "category": "Strategy"
   },
   {
-    "id": "sushi-party",
-    "name": "Sushi Party",
-    "url": "https://webgamer.io/en/g/sushi-party",
-    "thumbnail": "https://cdn.webgamer.io/games/sushi-party/sushi-party.480x.85pc.webp",
-    "description": "Snake-style game with a sushi twist! Eat rolls and grow longer than all rivals.",
+    "id": "velocity-rush",
+    "name": "Velocity Rush",
+    "url": "https://cloud.onlinegames.io/games/2026/unity/velocity-rush/game.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/1265/responsive/velocity-rush-xs.webp",
+    "description": "Fast-paced arcade game controlling a golf ball through obstacle courses. Quick reflexes required!",
     "category": "Arcade"
+  },
+  {
+    "id": "stack-fire-ball",
+    "name": "Stack Fire Ball",
+    "url": "https://www.onlinegames.io/games/2021/unity/stack-fire-ball/index.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/184/responsive/Stack-Fire-Ball-Game-xs.jpg",
+    "description": "Guide a bouncing fireball through colorful stacked tiles, destroying them as you fall down.",
+    "category": "Arcade"
+  },
+  {
+    "id": "gta-simulator",
+    "name": "GTA Simulator",
+    "url": "https://www.onlinegames.io/games/2023/unity2/gta-simulator/index.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/416/responsive/GTA-Simulator-xs.jpg",
+    "description": "Open-world GTA-style simulator playable in your browser — drive, shoot, explore the city freely.",
+    "category": "Action"
+  },
+  {
+    "id": "geometry-vector",
+    "name": "Geometry Vector",
+    "url": "https://cloud.onlinegames.io/games/2026/construct/329/geometry-vector/game.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/1246/responsive/geometry-vector-xs.webp",
+    "description": "Guide an arrow through obstacle courses synced to music. Dodge spikes, collect coins, unlock skins.",
+    "category": "Arcade"
+  },
+  {
+    "id": "burnout-city",
+    "name": "Burnout City",
+    "url": "https://cloud.onlinegames.io/games/2024/unity/burnout-city/index-og.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/861/responsive/burnoutcity-xs.jpg",
+    "description": "Neon night city filled with 11 customizable cars for drifting and hill climbing stunts.",
+    "category": "Racing"
+  },
+  {
+    "id": "basket-hoop",
+    "name": "Basket Hoop",
+    "url": "https://cloud.onlinegames.io/games/2024/construct/311/basket-hoop/index-og.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/843/responsive/Basket-Hoop-xs.jpg",
+    "description": "Tap to launch the ball into the hoop. Simple one-button physics-based basketball for endless fun.",
+    "category": "Sports"
+  },
+  {
+    "id": "crazy-strike-force",
+    "name": "Crazy Strike Force",
+    "url": "https://www.onlinegames.io/games/2023/unity/crazy-strike-force/index.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/366/responsive/Crazy-Strike-Force-xs.jpg",
+    "description": "Intense first-person battle royale with character customization and a wide weapon selection.",
+    "category": "Shooting"
+  },
+  {
+    "id": "police-chase-drifter",
+    "name": "Police Chase Drifter",
+    "url": "https://www.onlinegames.io/games/2021/3/police-chase-drifter/index.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/155/responsive/Police-Chase-Drifter-Online-xs.jpg",
+    "description": "Drift through city streets, collect cash, and outrun the cops before they catch you.",
+    "category": "Racing"
+  },
+  {
+    "id": "drunken-duel",
+    "name": "Drunken Duel",
+    "url": "https://www.onlinegames.io/games/2024/code/2/drunken-duel/index.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/698/responsive/Drunken-Duel-xs.jpg",
+    "description": "Two wasted ragdolls duel each other with guns. Wobbly physics makes every shot hilarious.",
+    "category": "2 Player"
+  },
+  {
+    "id": "99-nights-in-the-forest",
+    "name": "99 Nights in the Forest",
+    "url": "https://cloud.onlinegames.io/games/2026/unity/99-nights-in-the-forest-survival/game.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/1190/responsive/99-nights-in-the-forest-xs.webp",
+    "description": "Survive 99 nights in the forest. Collect wood, craft tools, light fires, and defend against werewolves.",
+    "category": "Survival"
+  },
+  {
+    "id": "monster-truck-mountain-climb",
+    "name": "Monster Truck Mountain Climb",
+    "url": "https://cloud.onlinegames.io/games/2021/2/monster-truck-mountain-climb/index-og.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/924/responsive/monster-truck-mountain-climb-xs.jpg",
+    "description": "Conquer 30 rugged off-road mountain tracks with your powerful monster truck.",
+    "category": "Racing"
+  },
+  {
+    "id": "car-football",
+    "name": "Car Football",
+    "url": "https://www.onlinegames.io/games/2023/construct/198/car-football/index.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/405/responsive/Car-Football-xs.jpg",
+    "description": "Rocket League-style 2D car soccer. Use your monster truck to score goals against your opponent.",
+    "category": "Sports"
+  },
+  {
+    "id": "mob-city",
+    "name": "Mob City",
+    "url": "https://www.onlinegames.io/games/2021/unity3/mob-city/index.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/418/responsive/Mob-City-xs.jpg",
+    "description": "Take on the mafia solo in this 3D shooting game packed with missions and intense gunfights.",
+    "category": "Action"
+  },
+  {
+    "id": "kick-the-dummy",
+    "name": "Kick The Dummy",
+    "url": "https://www.onlinegames.io/games/2022/q3/kick-the-dummy/index.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/414/responsive/Kick-The-Dummy-Game-xs.jpg",
+    "description": "Beat, kick, throw, and torture a ragdoll dummy with all kinds of weapons. Pure stress-relief fun.",
+    "category": "Crazy"
+  },
+  {
+    "id": "backflip-challenge",
+    "name": "Backflip Challenge",
+    "url": "https://cloud.onlinegames.io/games/2025/construct/304/backflip-challenge/index-og.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/1203/responsive/backflip-challenge-xs.webp",
+    "description": "Time your jumps and rotations perfectly to land backflips without wiping out. Increasingly difficult levels.",
+    "category": "Skill"
+  },
+  {
+    "id": "cat-simulator",
+    "name": "Cat Simulator",
+    "url": "https://www.onlinegames.io/games/2022/unity3/cat-simulator/index.html",
+    "thumbnail": "https://www.onlinegames.io/media/posts/330/responsive/Cat-Simulator-Online-xs.jpg",
+    "description": "Be a mischievous cat! Knock things off tables, scratch furniture, and cause chaos in the house.",
+    "category": "Simulator"
+  },
+  {
+    "id": "powerline-io",
+    "name": "Powerline.io",
+    "url": "https://powerline.io/",
+    "thumbnail": "https://powerline.io/powerline-icon.png",
+    "description": "Neon light-trail multiplayer game. Grow your power line and cut off opponents without crashing.",
+    "category": "IO Games"
+  },
+  {
+    "id": "paper-io-2",
+    "name": "Paper.io 2",
+    "url": "https://paper-io.com/",
+    "thumbnail": "https://paper-io.com/img/thumbnail.png",
+    "description": "Capture territory by creating loops back to your own space. Don't let enemies cut your trail!",
+    "category": "IO Games"
+  },
+  {
+    "id": "mope-io",
+    "name": "Mope.io",
+    "url": "https://mope.io/",
+    "thumbnail": "https://mope.io/img/thumbnail.png",
+    "description": "Start as a small mouse and evolve into the dragon by eating food and other animals on the food chain.",
+    "category": "IO Games"
+  },
+  {
+    "id": "bloxd-io",
+    "name": "Bloxd.io",
+    "url": "https://bloxd.io/",
+    "thumbnail": "https://bloxd.io/img/thumbnail.png",
+    "description": "Minecraft-inspired multiplayer voxel game with multiple modes: creative building, parkour, bed wars and more.",
+    "category": "Sandbox"
+  },
+  {
+    "id": "ev-io",
+    "name": "Ev.io",
+    "url": "https://ev.io/",
+    "thumbnail": "https://ev.io/img/thumbnail.png",
+    "description": "Sci-fi arena 3D FPS browser game. Fast movement, bouncy grenades, and satisfying gunplay.",
+    "category": "Shooting"
+  },
+  {
+    "id": "yohoho-io",
+    "name": "Yohoho.io",
+    "url": "https://yohoho.io/",
+    "thumbnail": "https://yohoho.io/img/thumbnail.png",
+    "description": "Pirate battle royale on shrinking islands. Swing your sword, dodge attacks, and be the last pirate standing.",
+    "category": "IO Games"
+  },
+  {
+    "id": "shell-shockers",
+    "name": "Shell Shockers",
+    "url": "https://shellshock.io/",
+    "thumbnail": "https://shellshock.io/img/thumbnail.jpg",
+    "description": "Multiplayer FPS where you play as an egg armed with guns. Crack your enemies before they crack you!",
+    "category": "Shooting"
   }
 ]

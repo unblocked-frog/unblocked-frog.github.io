@@ -6,9 +6,10 @@
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Gamepad2, X, Ghost, Play, ShieldAlert, Maximize, Search, ExternalLink, VolumeX, Volume2 } from "lucide-react";
-import { AdSense } from "./components/AdSense";
 import { PrivacyPolicy } from "./components/PrivacyPolicy";
 import { Contact } from "./components/Contact";
+import { BlogPage } from "./components/BlogPage";
+import { GameReviewGenerator } from "./components/GameReviewGenerator";
 import initialGamesData from "./data/games.json";
 
 interface Game {
@@ -149,6 +150,7 @@ export default function App() {
   const [isPanicActive, setIsPanicActive] = useState(false);
   const [showPrivacyPolicy, setShowPrivacyPolicy] = useState(false);
   const [showContact, setShowContact] = useState(false);
+  const [showBlog, setShowBlog] = useState(false);
   const [isGameLoading, setIsGameLoading] = useState(false);
   const [loadingTime, setLoadingTime] = useState(0);
   const [searchQuery, setSearchQuery] = useState("");
@@ -239,7 +241,14 @@ export default function App() {
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
-  const categories = ["All", "Action", "Arcade", "Racing", "Puzzle", "Sports", "Strategy", "Adventure", "Simulator"];
+  const categories = useMemo(() => {
+    const cats = new Set(games.map(g => g.category));
+    return ["All", ...Array.from(cats)].sort((a, b) => {
+      if (a === "All") return -1;
+      if (b === "All") return 1;
+      return a.localeCompare(b);
+    });
+  }, []);
 
   const filteredGames = useMemo(() => {
     const query = debouncedSearchQuery.toLowerCase().trim();
@@ -253,21 +262,8 @@ export default function App() {
   }, [games, debouncedSearchQuery, selectedCategory]);
 
   const gridItems = useMemo(() => {
-    const items: any[] = [];
-    filteredGames.forEach((game, index) => {
-      items.push({ type: 'game', content: game, index });
-      
-      // Inject ads in the sequence
-      if ((index + 1) % 4 === 0 && index !== filteredGames.length - 1 && !debouncedSearchQuery) {
-        items.push({ 
-          type: 'ad', 
-          id: `ad-${game.id}`, 
-          index 
-        });
-      }
-    });
-    return items;
-  }, [filteredGames, debouncedSearchQuery]);
+    return filteredGames.map((game, index) => ({ type: 'game', content: game, index }));
+  }, [filteredGames]);
   
   // Debug check
   useEffect(() => {
@@ -303,6 +299,13 @@ export default function App() {
           >
             <Contact onClose={() => setShowContact(false)} />
           </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Blog Overlay */}
+      <AnimatePresence>
+        {showBlog && (
+          <BlogPage onClose={() => setShowBlog(false)} />
         )}
       </AnimatePresence>
 
@@ -348,7 +351,7 @@ export default function App() {
                 F
               </div>
               <h1 className="text-xl md:text-2xl font-display font-extrabold tracking-tighter text-frog-main uppercase group-hover:scale-105 transition-transform hidden sm:block">
-                Unblocked <span className="text-[#f1f5f9]">Frog</span>
+                Frog <span className="text-[#f1f5f9]">Games</span>
               </h1>
             </div>
 
@@ -364,8 +367,14 @@ export default function App() {
             </div>
           </div>
 
-          <div className="flex items-center">
-            <div className="hidden md:flex flex-col items-end leading-tight shrink-0 pl-4 pr-0">
+          <div className="flex items-center gap-4">
+            <button
+              onClick={() => setShowBlog(true)}
+              className="hidden md:block px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 rounded-xl text-xs font-bold text-frog-light uppercase tracking-widest transition-all"
+            >
+              Guides & Blog
+            </button>
+            <div className="hidden md:flex flex-col items-end leading-tight shrink-0 pl-4 border-l border-white/5">
               <span className="text-sm font-black text-frog-main uppercase tracking-tight">Panic Mode</span>
               <span className="text-[11px] text-frog-light/90 uppercase font-bold mt-1 flex items-center gap-1.5">
                 Press <span className="bg-frog-main text-black px-2 py-0.5 rounded font-mono text-xs shadow-sm ring-2 ring-frog-main/20">`</span> key to hide
@@ -402,9 +411,6 @@ export default function App() {
             animate={{ opacity: 1, scale: 1 }}
             className="mb-12 overflow-hidden flex justify-center w-full"
           >
-             <div className="w-full max-w-[728px] p-2 bg-surface/20 rounded-xl border border-border/30 px-4">
-                <AdSense adClient="ca-pub-8358881625500999" adSlot="XXXXXXXXXX" style={{ width: '100%', minHeight: '90px' }} />
-             </div>
           </motion.div>
 
           <motion.h2
@@ -416,7 +422,7 @@ export default function App() {
             <span className="text-frog-main uppercase italic">GAMING POND.</span>
           </motion.h2>
           <p className="max-w-2xl mx-auto text-frog-light text-lg md:text-xl">
-             Explore our hand-picked collection of unblocked classics. Ribbiting fun for everyone.
+             Explore our hand-picked collection of casual browser classics. Ribbiting fun for everyone.
           </p>
         </div>
       </header>
@@ -438,7 +444,7 @@ export default function App() {
               {gridItems.map((item) => (
                   <motion.div
                   layout
-                  key={item.type === 'game' ? item.content.id : item.id}
+                  key={item.content.id}
                   initial={{ opacity: 0, scale: 0.9, y: 20 }}
                   animate={{ opacity: 1, scale: 1, y: 0 }}
                   exit={{ opacity: 0, scale: 0.9 }}
@@ -446,22 +452,13 @@ export default function App() {
                     duration: 0.3,
                     delay: (item.index % 12) * 0.03 // Staggered entrance for first few items
                   }}
-                  className={item.type === 'game' 
-                    ? `bento-card flex flex-col ${item.index === 0 ? 'md:col-span-2 md:row-span-2' : ''}`
-                    : `flex items-center justify-center bento-card bg-surface/30 p-4 overflow-hidden h-[250px] ${(item.index + 1) % 8 === 0 ? 'col-span-full h-[150px]' : 'sm:col-span-2'}`
-                  }
+                  className={`bento-card flex flex-col ${item.index === 0 ? 'md:col-span-2 md:row-span-2' : ''}`}
                 >
-                  {item.type === 'game' ? (
                     <GameCard 
                       game={item.content} 
                       isLarge={item.index === 0} 
                       onClick={() => handleGameSelect(item.content)} 
                     />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center">
-                      <AdSense adClient="ca-pub-8358881625500999" adSlot="XXXXXXXXXX" style={{ width: '100%', height: '100%' }} />
-                    </div>
-                  )}
                 </motion.div>
               ))}
             </AnimatePresence>
@@ -504,9 +501,6 @@ export default function App() {
         )}
 
         <div className="mt-20 pt-10 border-t border-border/30 flex flex-col items-center w-full overflow-hidden">
-          <div className="w-full max-w-4xl">
-            <AdSense adClient="ca-pub-8358881625500999" adSlot="XXXXXXXXXX" />
-          </div>
         </div>
       </main>
 
@@ -515,7 +509,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-frog-light">
           <div className="flex items-center gap-2">
             <span className="text-xl">🐸</span>
-            <span>© 2026 Unblocked Frog Curated. All rights reserved.</span>
+            <span>© 2026 Frog Games Curated. All rights reserved.</span>
           </div>
           <div className="flex gap-6">
             <button 
@@ -545,16 +539,16 @@ export default function App() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 bg-black/95 flex flex-col"
+            className="fixed inset-0 z-50 bg-black flex flex-col overflow-y-auto w-full"
           >
-            <div className="p-4 flex items-center justify-between border-b border-white/10">
+            <div className="p-4 shrink-0 flex items-center justify-between border-b border-white/10 sticky top-0 bg-black/95 backdrop-blur-md z-40">
               <div className="flex items-center gap-3">
                 <div className="p-2 bg-frog-main rounded-lg">
                   <Gamepad2 className="w-5 h-5 text-black" />
                 </div>
                 <div>
                   <h4 className="font-display font-bold text-lg leading-tight">{selectedGame.name}</h4>
-                  <p className="text-xs text-frog-light">Playing Unblocked</p>
+                  <p className="text-xs text-frog-light">Playing Casual</p>
                 </div>
               </div>
               <div className="flex items-center gap-2">
@@ -586,31 +580,19 @@ export default function App() {
               </div>
             </div>
             
-            <div className="flex-1 flex flex-col md:flex-row relative bg-black overflow-hidden mt-2">
-              {/* Left Skyscraper Ad */}
-              <div className="hidden lg:flex w-[160px] shrink-0 bg-surface/10 border-r border-white/5 flex-col items-center py-4">
-                <p className="text-[9px] text-white/20 uppercase font-black mb-4 vertical-text">Advertisement</p>
-                <div className="w-[120px]">
-                  <AdSense adClient="ca-pub-8358881625500999" adSlot="XXXXXXXXXX" style={{ width: '120px', height: '600px', display: 'block' }} />
-                </div>
-              </div>
-
+            <div className="w-full flex-none flex flex-col md:flex-row relative bg-black border-b border-white/10 h-[85vh] min-h-[600px]">
               <div className="flex-1 relative">
                 {showInterstitial ? (
                   <div className="absolute inset-0 z-10 bg-[#0a0c10] flex flex-col items-center justify-center p-8 text-center">
                     <div className="max-w-xl w-full space-y-8">
                        <h5 className="text-2xl font-display font-bold text-frog-main uppercase italic">Ribbiting Content Loading...</h5>
-                       <div className="bg-frog-dark border border-white/5 rounded-2xl p-4 min-h-[300px] flex flex-col items-center justify-center">
-                          <p className="text-[9px] text-white/20 uppercase font-black mb-4 tracking-tighter">Advertisement</p>
-                          <AdSense adClient="ca-pub-8358881625500999" adSlot="XXXXXXXXXX" style={{ width: '100%', minHeight: '250px' }} />
-                       </div>
                        <motion.button
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setShowInterstitial(false)}
                         className="bg-frog-main text-black px-12 py-4 rounded-xl font-display font-black text-xl hover:shadow-[0_0_20px_rgba(101,255,143,0.3)] transition-all mx-auto"
                       >
-                        SKIP AD & PLAY
+                        PLAY
                       </motion.button>
                     </div>
                   </div>
@@ -695,21 +677,16 @@ export default function App() {
                   </p>
                 </div>
               </div>
+            </div>
 
-              {/* Right Skyscraper Ad */}
-              <div className="hidden lg:flex w-[160px] shrink-0 bg-surface/10 border-l border-white/5 flex-col items-center py-4">
-                <p className="text-[9px] text-white/20 uppercase font-black mb-4 vertical-text">Advertisement</p>
-                <div className="w-[120px]">
-                  <AdSense adClient="ca-pub-8358881625500999" adSlot="XXXXXXXXXX" style={{ width: '120px', height: '600px', display: 'block' }} />
-                </div>
+            <div className="max-w-4xl mx-auto w-full px-6 pt-12 pb-24 shrink-0 relative z-10">
+              <div className="text-center mb-8">
+                <span className="text-[10px] font-black uppercase tracking-widest text-frog-main mb-3 bg-frog-main/10 px-2 py-1 rounded inline-block">
+                  {selectedGame.category}
+                </span>
+                <h1 className="text-4xl md:text-5xl font-display font-black text-white mt-4">{selectedGame.name} Review & Guide</h1>
               </div>
-
-              {/* Mobile Bottom Banner */}
-              <div className="lg:hidden h-[90px] border-t border-white/5 bg-surface/10 p-2 overflow-hidden flex items-center justify-center">
-                <div className="w-full max-w-[728px]">
-                  <AdSense adClient="ca-pub-8358881625500999" adSlot="XXXXXXXXXX" style={{ width: '100%', height: '100%' }} />
-                </div>
-              </div>
+              <GameReviewGenerator game={selectedGame} />
             </div>
           </motion.div>
         )}

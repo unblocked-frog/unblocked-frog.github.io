@@ -32,7 +32,7 @@ export function PrivacyPolicy({ onClose }: PrivacyPolicyProps) {
             <h2 className="text-2xl font-display font-bold uppercase tracking-wide">Introduction</h2>
           </div>
           <p className="leading-relaxed opacity-80">
-            Welcome to <strong>Unblocked Frog</strong>. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website <strong>unblocked-frog.github.io</strong>. By using our site, you agree to the terms outlined here.
+            Welcome to <strong>Frog Games</strong>. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website <strong>unblocked-frog.github.io</strong>. By using our site, you agree to the terms outlined here.
           </p>
           <p className="text-sm opacity-60 italic">Last Updated: April 19, 2026</p>
         </section>
@@ -56,20 +56,6 @@ export function PrivacyPolicy({ onClose }: PrivacyPolicyProps) {
               </p>
             </div>
           </div>
-        </section>
-
-        <section className="space-y-4">
-          <div className="flex items-center gap-3 text-frog-main">
-            <ShieldCheck className="w-6 h-6" />
-            <h2 className="text-2xl font-display font-bold uppercase tracking-wide">Google AdSense & DoubleClick</h2>
-          </div>
-          <p className="leading-relaxed opacity-80">
-            As a third-party vendor, Google uses cookies to serve ads on our site. Google's use of the advertising cookie enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.
-          </p>
-          <ul className="list-disc list-inside space-y-2 opacity-70 text-sm ml-4">
-              <li>Users may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" className="text-frog-main underline">Ads Settings</a>.</li>
-              <li>You can also opt out of a third-party vendor's use of cookies for personalized advertising by visiting <a href="http://www.aboutads.info/choices/" className="text-frog-main underline">www.aboutads.info</a>.</li>
-          </ul>
         </section>
 
         <section className="space-y-4">
@@ -99,7 +85,7 @@ export function PrivacyPolicy({ onClose }: PrivacyPolicyProps) {
 
       {/* Footer */}
       <footer className="bg-black/20 py-8 px-6 text-center border-t border-white/5">
-        <p className="text-[10px] text-frog-light/30 uppercase font-black tracking-[0.5em]">Unblocked Frog • Privacy First</p>
+        <p className="text-[10px] text-frog-light/30 uppercase font-black tracking-[0.5em]">Frog Games • Privacy First</p>
       </footer>
     </div>
   );
