@@ -33,6 +33,8 @@ import { PrivacyPolicy } from "./components/PrivacyPolicy";
 import { AboutUs } from "./components/AboutUs";
 import { Contact } from "./components/Contact";
 import { GameReviewGenerator } from "./components/GameReviewGenerator";
+import { AdsterraBanner, ResponsiveLeaderboard } from "./components/AdsterraBanner";
+import { AdsterraNativeBanner } from "./components/AdsterraNativeBanner";
 import initialGamesData from "./data/games.json";
 
 interface Game {
@@ -443,6 +445,17 @@ export default function App() {
           </div>
 
           <div className="flex items-center gap-3 md:gap-4">
+            <a
+              href="https://araplhn.org/4/9783c5b3da3dc733b4b7de429fb2262c"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-yellow-500/15 to-frog-main/15 hover:from-yellow-500/25 hover:to-frog-main/25 border border-frog-main/30 text-frog-main hover:text-white text-xs font-display font-black uppercase tracking-wider transition-all shadow-[0_0_15px_rgba(163,230,53,0.15)] group shrink-0"
+              title="Discover Bonus Games & Rewards"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-yellow-400 group-hover:rotate-12 transition-transform animate-pulse" />
+              <span>Bonus Game</span>
+            </a>
+
             <div className="hidden md:flex flex-col items-end leading-tight shrink-0">
               <span className="text-sm font-black text-frog-main uppercase tracking-tight">Panic Mode</span>
               <span className="text-[11px] text-frog-light/90 uppercase font-bold mt-1 flex items-center gap-1.5">
@@ -568,6 +581,11 @@ export default function App() {
         </div>
       </header>
 
+      {/* Adsterra Top Leaderboard Banner */}
+      <section className="max-w-7xl mx-auto px-6 mb-6">
+        <ResponsiveLeaderboard />
+      </section>
+
       {/* Games Grid */}
       <main className="max-w-7xl mx-auto px-6 pb-20">
         <div className="flex items-center justify-between mb-8">
@@ -641,7 +659,8 @@ export default function App() {
           </motion.div>
         )}
 
-        <div className="mt-20 pt-10 border-t border-border/30 flex flex-col items-center w-full overflow-hidden">
+        <div className="mt-16 pt-8 border-t border-border/30 flex flex-col items-center w-full overflow-hidden">
+          <AdsterraNativeBanner />
         </div>
       </main>
 
@@ -652,7 +671,16 @@ export default function App() {
             <span className="text-xl">🐸</span>
             <span>© 2026 Frog Games Curated. All rights reserved.</span>
           </div>
-          <div className="flex gap-6">
+          <div className="flex items-center gap-6">
+            <a 
+              href="https://araplhn.org/4/9783c5b3da3dc733b4b7de429fb2262c"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[10px] uppercase font-bold text-yellow-400 hover:text-white transition-colors tracking-widest flex items-center gap-1.5"
+            >
+              <Sparkles className="w-3 h-3 text-yellow-400 animate-pulse" />
+              <span>Special Bonus</span>
+            </a>
             <button 
               onClick={() => {
                 setShowAboutUs(true);
@@ -829,6 +857,11 @@ export default function App() {
               </div>
             </div>
 
+            {/* Adsterra In-Game Leaderboard */}
+            <div className="w-full bg-frog-dark/80 border-b border-white/5 py-3 flex justify-center shrink-0">
+              <ResponsiveLeaderboard />
+            </div>
+
             <div className="max-w-4xl mx-auto w-full px-6 pt-12 pb-24 shrink-0 relative z-10">
               <div className="text-center mb-8">
                 <span className="text-[10px] font-black uppercase tracking-widest text-frog-main mb-3 bg-frog-main/10 px-2 py-1 rounded inline-block">
@@ -837,6 +870,11 @@ export default function App() {
                 <h1 className="text-4xl md:text-5xl font-display font-black text-white mt-4">{selectedGame.name} Review & Guide</h1>
               </div>
               <GameReviewGenerator game={selectedGame} />
+
+              {/* Adsterra 300x250 Banner in Review Section */}
+              <div className="mt-12 pt-8 border-t border-white/5 flex flex-col items-center">
+                <AdsterraBanner format="300x250" />
+              </div>
             </div>
           </motion.div>
         )}
