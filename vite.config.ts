@@ -10,7 +10,7 @@ export default defineConfig(({mode}) => {
     base: './',
     build: {
       outDir: 'dist',
-      assetsDir: '', // Put all assets in the root of dist folder
+      assetsDir: 'assets',
       sourcemap: false,
       minify: 'esbuild',
     },

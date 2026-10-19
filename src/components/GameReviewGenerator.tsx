@@ -1,14 +1,14 @@
 import React, { useMemo } from 'react';
 
-interface Game {
+export interface GameReviewItem {
   id: string;
   name: string;
-  category: string;
-  description: string;
+  category?: string;
+  description?: string;
 }
 
 interface GameReviewGeneratorProps {
-  game: Game;
+  game: GameReviewItem;
 }
 
 // Simple seeded random number generator
@@ -76,7 +76,7 @@ export function GameReviewGenerator({ game }: GameReviewGeneratorProps) {
 
     const p1 = pick(gameplayIntros)
       .replace("{game}", `<strong>${game.name}</strong>`)
-      .replace("{category}", `<em>${game.category}</em>`);
+      .replace("{category}", `<em>${game.category || 'Casual'}</em>`);
     const p2 = pick(gameplayDetails);
     
     // Create paragraphs
