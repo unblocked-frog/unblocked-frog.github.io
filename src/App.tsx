@@ -34,7 +34,6 @@ import { AboutUs } from "./components/AboutUs";
 import { Contact } from "./components/Contact";
 import { GameReviewGenerator } from "./components/GameReviewGenerator";
 import { AdsterraBanner, ResponsiveLeaderboard } from "./components/AdsterraBanner";
-import { AdsterraNativeBanner } from "./components/AdsterraNativeBanner";
 import initialGamesData from "./data/games.json";
 
 interface Game {
@@ -246,6 +245,13 @@ export default function App() {
     setIsGameLoading(true);
   };
 
+  const handleRandomGame = () => {
+    if (games.length > 0) {
+      const randomIndex = Math.floor(Math.random() * games.length);
+      handleGameSelect(games[randomIndex]);
+    }
+  };
+
   // Panic Mode Shortcut (Backtick Key)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -445,16 +451,14 @@ export default function App() {
           </div>
 
           <div className="flex items-center gap-3 md:gap-4">
-            <a
-              href="https://araplhn.org/4/9783c5b3da3dc733b4b7de429fb2262c"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-yellow-500/15 to-frog-main/15 hover:from-yellow-500/25 hover:to-frog-main/25 border border-frog-main/30 text-frog-main hover:text-white text-xs font-display font-black uppercase tracking-wider transition-all shadow-[0_0_15px_rgba(163,230,53,0.15)] group shrink-0"
-              title="Discover Bonus Games & Rewards"
+            <button
+              onClick={handleRandomGame}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-yellow-500/15 to-frog-main/15 hover:from-yellow-500/25 hover:to-frog-main/25 border border-frog-main/30 text-frog-main hover:text-white text-xs font-display font-black uppercase tracking-wider transition-all shadow-[0_0_15px_rgba(163,230,53,0.15)] group shrink-0 cursor-pointer"
+              title="Pick a random surprise game!"
             >
               <Sparkles className="w-3.5 h-3.5 text-yellow-400 group-hover:rotate-12 transition-transform animate-pulse" />
-              <span>Bonus Game</span>
-            </a>
+              <span>Random Game</span>
+            </button>
 
             <div className="hidden md:flex flex-col items-end leading-tight shrink-0">
               <span className="text-sm font-black text-frog-main uppercase tracking-tight">Panic Mode</span>
@@ -658,10 +662,6 @@ export default function App() {
             )}
           </motion.div>
         )}
-
-        <div className="mt-16 pt-8 border-t border-border/30 flex flex-col items-center w-full overflow-hidden">
-          <AdsterraNativeBanner />
-        </div>
       </main>
 
       {/* Footer */}
@@ -672,15 +672,6 @@ export default function App() {
             <span>© 2026 Frog Games Curated. All rights reserved.</span>
           </div>
           <div className="flex items-center gap-6">
-            <a 
-              href="https://araplhn.org/4/9783c5b3da3dc733b4b7de429fb2262c"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[10px] uppercase font-bold text-yellow-400 hover:text-white transition-colors tracking-widest flex items-center gap-1.5"
-            >
-              <Sparkles className="w-3 h-3 text-yellow-400 animate-pulse" />
-              <span>Special Bonus</span>
-            </a>
             <button 
               onClick={() => {
                 setShowAboutUs(true);
