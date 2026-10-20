@@ -34,6 +34,7 @@ import { AboutUs } from "./components/AboutUs";
 import { Contact } from "./components/Contact";
 import { GameReviewGenerator } from "./components/GameReviewGenerator";
 import { AdsterraBanner, ResponsiveLeaderboard } from "./components/AdsterraBanner";
+import { AdsterraNativeBanner } from "./components/AdsterraNativeBanner";
 import initialGamesData from "./data/games.json";
 
 interface Game {
@@ -451,13 +452,23 @@ export default function App() {
           </div>
 
           <div className="flex items-center gap-3 md:gap-4">
-            <button
-              onClick={handleRandomGame}
+            <a
+              href="https://araplhn.org/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-yellow-500/15 to-frog-main/15 hover:from-yellow-500/25 hover:to-frog-main/25 border border-frog-main/30 text-frog-main hover:text-white text-xs font-display font-black uppercase tracking-wider transition-all shadow-[0_0_15px_rgba(163,230,53,0.15)] group shrink-0 cursor-pointer"
-              title="Pick a random surprise game!"
+              title="Bonus Game!"
             >
               <Sparkles className="w-3.5 h-3.5 text-yellow-400 group-hover:rotate-12 transition-transform animate-pulse" />
-              <span>Random Game</span>
+              <span>Bonus Game</span>
+            </a>
+
+            <button
+              onClick={handleRandomGame}
+              className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-frog-light hover:text-white text-xs font-display font-bold uppercase tracking-wider transition-all group shrink-0 cursor-pointer"
+              title="Pick a random surprise game!"
+            >
+              <span>Random</span>
             </button>
 
             <div className="hidden md:flex flex-col items-end leading-tight shrink-0">
@@ -664,6 +675,9 @@ export default function App() {
         )}
       </main>
 
+      {/* Adsterra Native Recommended Content Banner */}
+      <AdsterraNativeBanner />
+
       {/* Footer */}
       <footer className="border-t border-border py-12 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-frog-light">
@@ -672,6 +686,15 @@ export default function App() {
             <span>© 2026 Frog Games Curated. All rights reserved.</span>
           </div>
           <div className="flex items-center gap-6">
+            <a 
+              href="https://araplhn.org/"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 text-[10px] font-bold text-yellow-400 hover:text-yellow-300 transition-colors uppercase tracking-widest cursor-pointer"
+            >
+              <Sparkles className="w-3 h-3 animate-pulse" />
+              <span>Special Bonus</span>
+            </a>
             <button 
               onClick={() => {
                 setShowAboutUs(true);
