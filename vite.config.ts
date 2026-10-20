@@ -7,8 +7,8 @@ export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
     plugins: [react(), tailwindcss()],
-    // Set base to '/REPO_NAME/' (replace REPO_NAME with your GitHub repo name)
-    base: '/REPO_NAME/',
+    // Base public path for root URL deployment
+    base: '/',
     build: {
       outDir: 'dist',
       assetsDir: 'assets',
