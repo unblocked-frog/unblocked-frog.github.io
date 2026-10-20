@@ -4,12 +4,13 @@ on:
   push:
     branches:
       - main
+      - master
   workflow_dispatch:
 
 permissions:
+  contents: write
   pages: write
   id-token: write
-  contents: read
 
 concurrency:
   group: "pages"
@@ -36,12 +37,23 @@ jobs:
           fi
 
       - name: Build project
-        run: npx vite build
+        run: |
+          npx vite build
+          touch ./dist/.nojekyll
 
-      - name: Upload artifact
+      # 1. Primary: Official GitHub Pages deployment (Requires Settings -> Pages -> Source: GitHub Actions)
+      - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
+
+      # 2. Secondary fallback: Deploy to gh-pages branch (works with Settings -> Pages -> Source: Deploy from a branch -> gh-pages)
+      - name: Deploy to gh-pages branch (fallback)
+        uses: JamesIves/github-pages-deploy-action@v4
+        continue-on-error: true
+        with:
+          folder: dist
+          branch: gh-pages
 
   deploy:
     environment:
