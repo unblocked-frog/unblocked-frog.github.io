@@ -33,7 +33,7 @@ export class ErrorBoundary extends Component<Props, State> {
           <div className="w-16 h-16 mb-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-3xl">
             🐸
           </div>
-          <h1 className="text-2xl font-bold text-emerald-400 mb-2">Terjadi Kesalahan Saat Memuat Halaman</h1>
+          <h2 className="text-2xl font-bold text-emerald-400 mb-2">Terjadi Kesalahan Saat Memuat Halaman</h2>
           <p className="text-gray-400 max-w-md mb-6 text-sm">
             {this.state.error?.message || 'Aplikasi mendeteksi error tak terduga. Silakan coba muat ulang halaman.'}
           </p>

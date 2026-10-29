@@ -42,7 +42,7 @@ interface Game {
   name: string;
   url: string;
   thumbnail: string;
-  description: string;
+  description?: string;
   category?: string;
 }
 
@@ -332,7 +332,7 @@ export default function App() {
     return games.filter(game => {
       const matchesSearch = !query || 
         game.name.toLowerCase().includes(query) || 
-        game.description?.toLowerCase().includes(query);
+        (game.category && game.category.toLowerCase().includes(query));
       const matchesCategory = selectedCategory === "All" || game.category === selectedCategory;
       return matchesSearch && matchesCategory;
     });
@@ -434,8 +434,8 @@ export default function App() {
               <div className="w-9 h-9 bg-frog-main rounded-xl flex items-center justify-center text-black font-black text-xl group-hover:rotate-12 transition-transform">
                 F
               </div>
-              <h1 className="text-xl md:text-2xl font-display font-extrabold tracking-tighter text-frog-main uppercase group-hover:scale-105 transition-transform hidden sm:block">
-                Frog <span className="text-[#f1f5f9]">Games</span>
+              <h1 className="text-lg sm:text-xl md:text-2xl font-display font-extrabold tracking-tighter text-frog-main uppercase group-hover:scale-105 transition-transform flex items-center">
+                Unblocked <span className="text-[#f1f5f9] ml-1.5">Frog</span>
               </h1>
             </div>
 
@@ -881,7 +881,7 @@ export default function App() {
                 <span className="text-[10px] font-black uppercase tracking-widest text-frog-main mb-3 bg-frog-main/10 px-2 py-1 rounded inline-block">
                   {selectedGame.category}
                 </span>
-                <h1 className="text-4xl md:text-5xl font-display font-black text-white mt-4">{selectedGame.name} Review & Guide</h1>
+                <h2 className="text-4xl md:text-5xl font-display font-black text-white mt-4">{selectedGame.name} Review & Guide</h2>
               </div>
               <GameReviewGenerator game={selectedGame} />
 
@@ -941,13 +941,10 @@ function GameCard({ game, isLarge, onClick }: GameCardProps) {
           </div>
         </div>
       </div>
-      <div className="p-4 bg-surface">
-        <h4 className="text-base font-display font-bold group-hover:text-frog-main transition-colors truncate">
+      <div className="p-3.5 bg-surface">
+        <h4 className="text-sm md:text-base font-display font-bold group-hover:text-frog-main transition-colors truncate">
           {game.name}
         </h4>
-        <p className="text-[12px] text-frog-light line-clamp-2 mt-1 font-normal leading-relaxed opacity-90">
-          {game.description}
-        </p>
       </div>
     </motion.div>
   );

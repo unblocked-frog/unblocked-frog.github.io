@@ -13,7 +13,7 @@ export function PrivacyPolicy({ onClose }: PrivacyPolicyProps) {
         <div className="max-w-4xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
              <div className="w-8 h-8 bg-frog-main rounded-lg flex items-center justify-center text-black font-black">P</div>
-             <h1 className="text-xl font-display font-black uppercase tracking-tight text-frog-main">Privacy Policy</h1>
+             <h2 className="text-xl font-display font-black uppercase tracking-tight text-frog-main">Privacy Policy</h2>
           </div>
           <button 
             onClick={onClose}

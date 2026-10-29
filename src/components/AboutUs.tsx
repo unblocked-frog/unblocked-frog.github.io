@@ -99,9 +99,9 @@ export function AboutUs({ onClose }: AboutUsProps) {
             <div className="w-8 h-8 bg-frog-main rounded-lg flex items-center justify-center text-black font-black text-sm">
               🐸
             </div>
-            <h1 className="text-xl font-display font-black uppercase tracking-tight text-frog-main">
+            <h2 className="text-xl font-display font-black uppercase tracking-tight text-frog-main">
               About Frog Games
-            </h1>
+            </h2>
           </div>
           <button 
             onClick={onClose}
