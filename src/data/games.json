@@ -1,5 +1,26 @@
 [
   {
+    "id": "chrome-dino",
+    "name": "Chrome Dino (T-Rex Runner)",
+    "url": "https://wayou.github.io/t-rex-runner/",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm8vjUiWs7H0z0BnsOkhSPzweJwmaqdWBTmzgXcLoTSg&s=10",
+    "category": "Arcade"
+  },
+  {
+    "id": "your-craft",
+    "name": "YourCraft",
+    "url": "https://your-craft.netlify.app/",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywTbpcY699hhexh_-FBuBsxBwzESGGjk68Uys2iW0Rw&s=10",
+    "category": "Adventure"
+  },
+  {
+    "id": "hexgl",
+    "name": "HexGL",
+    "url": "https://hexgl.bkcore.com/play/",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjEhsgqsVnxkRsccQPPgBbh-CSgsHhTxLKpbncX567JQ&s=10",
+    "category": "Racing"
+  },
+  {
     "id": "block-blast",
     "name": "Block Blast",
     "url": "https://cloud.onlinegames.io/games/2024/unity3/block-blast/index-og.html",
