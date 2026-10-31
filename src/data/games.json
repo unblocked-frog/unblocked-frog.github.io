@@ -485,9 +485,9 @@
   {
     "id": "overtide-io",
     "name": "Overtide.io",
-    "url": "https://overtide.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/overtide-io/overtide-io.480x.85pc.webp",
-    "category": "Strategy"
+    "url": "https://www.gameflare.com/embed/overtide-io/",
+    "thumbnail": "https://data.gameflare.com/games/10797/JQvqjT9BEVLkcy-220-165.jpg",
+    "category": "Action"
   },
   {
     "id": "summoners-io",
@@ -1041,5 +1041,348 @@
     "url": "https://www.gameflare.com/embed/paint-and-seek-online/",
     "thumbnail": "https://data.gameflare.com/games/11461/edF0044hmefp4k-220-165.jpg",
     "category": "Action"
+  },
+  {
+    "id": "rivals-roblox",
+    "name": "RIVALS - Roblox",
+    "url": "https://www.gameflare.com/embed/rivals-roblox/",
+    "thumbnail": "https://data.gameflare.com/games/11236/oiRuQSeN3AQVEB-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "ludo-with-friends",
+    "name": "Ludo With Friends",
+    "url": "https://www.gameflare.com/embed/ludo-with-friends/",
+    "thumbnail": "https://data.gameflare.com/games/9455/h3S0NDi1a43uTe-220-165.jpg",
+    "category": "Strategy"
+  },
+  {
+    "id": "combat-reloaded",
+    "name": "Combat Reloaded",
+    "url": "https://www.gameflare.com/embed/combat-reloaded/",
+    "thumbnail": "https://data.gameflare.com/games/7347/BIVe4ZwssPXvmy-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "turball-io",
+    "name": "Turball.io",
+    "url": "https://www.gameflare.com/embed/turball-io/",
+    "thumbnail": "https://data.gameflare.com/games/11491/mN2xabOmorqPgb-220-165.jpg",
+    "category": "Sports"
+  },
+  {
+    "id": "hockey-bros",
+    "name": "Hockey Bros",
+    "url": "https://www.gameflare.com/embed/hockey-bros/",
+    "thumbnail": "https://data.gameflare.com/games/11479/AsFiDX3Pl714dA-220-165.jpg",
+    "category": "Sports"
+  },
+  {
+    "id": "kubz-io",
+    "name": "Kubz.io",
+    "url": "https://www.gameflare.com/embed/kubz-io/",
+    "thumbnail": "https://data.gameflare.com/games/11471/TFQJuO2P4SNF9X-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "goalheads-io",
+    "name": "GoalHeads.io",
+    "url": "https://www.gameflare.com/embed/goalheads-io/",
+    "thumbnail": "https://data.gameflare.com/games/11436/5igtv7SCfDo6yE-220-165.jpg",
+    "category": "Sports"
+  },
+  {
+    "id": "dinosaur-park-primeval-zoo",
+    "name": "Dinosaur Park - Primeval Zoo",
+    "url": "https://www.gameflare.com/embed/dinosaur-park-primeval-zoo/",
+    "thumbnail": "https://data.gameflare.com/games/9719/pXSfRBUiaQ7qwe-220-165.jpg",
+    "category": "Simulator"
+  },
+  {
+    "id": "tag-online-bomb-3d",
+    "name": "Tag Online: Bomb 3D",
+    "url": "https://www.gameflare.com/embed/tag-online-bomb-3d/",
+    "thumbnail": "https://data.gameflare.com/games/11425/B5nIfHIQSMYgqy-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "meccha-hunt",
+    "name": "Meccha Hunt",
+    "url": "https://www.gameflare.com/embed/meccha-hunt/",
+    "thumbnail": "https://data.gameflare.com/games/11415/RHzmdPUfjllKxq-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "goal-gang",
+    "name": "Goal Gang",
+    "url": "https://www.gameflare.com/embed/goal-gang/",
+    "thumbnail": "https://data.gameflare.com/games/11405/UksNMWMSg0YaNg-220-165.jpg",
+    "category": "Sports"
+  },
+  {
+    "id": "mechacraft-io",
+    "name": "Mechacraft.io",
+    "url": "https://www.gameflare.com/embed/mechacraft-io/",
+    "thumbnail": "https://data.gameflare.com/games/11385/53m7KX3UztM6BP-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "redcoats-io",
+    "name": "Redcoats.io",
+    "url": "https://www.gameflare.com/embed/redcoats-io/",
+    "thumbnail": "https://data.gameflare.com/games/11334/pq9PzGvCa9wALb-220-165.jpg",
+    "category": "Strategy"
+  },
+  {
+    "id": "fallzone-io",
+    "name": "FallZone.io",
+    "url": "https://www.gameflare.com/embed/fallzone-io/",
+    "thumbnail": "https://data.gameflare.com/games/11301/LQpTxYNQSpFjHb-220-165.jpg",
+    "category": "Arcade"
+  },
+  {
+    "id": "special-ops-go",
+    "name": "Special Ops: GO",
+    "url": "https://www.gameflare.com/embed/special-ops-go/",
+    "thumbnail": "https://data.gameflare.com/games/11299/2STu2CaEqEkmiq-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "1v1-lol",
+    "name": "1v1.LOL",
+    "url": "https://www.gameflare.com/embed/1v1-lol/",
+    "thumbnail": "https://data.gameflare.com/games/9321/5Ty2NpFoWlGQNM-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "molehill-empire-2",
+    "name": "Molehill Empire 2",
+    "url": "https://www.gameflare.com/embed/molehill-empire-2/",
+    "thumbnail": "https://data.gameflare.com/games/11258/JpKYtqHZSsSDc2-220-165.jpg",
+    "category": "Simulator"
+  },
+  {
+    "id": "8-ball-pool-multiplayer",
+    "name": "8 Ball Pool Multiplayer",
+    "url": "https://www.gameflare.com/embed/8-ball-pool-multiplayer/",
+    "thumbnail": "https://data.gameflare.com/games/3350/l7M9Hu3bdXQ8L7-220-165.jpg",
+    "category": "Sports"
+  },
+  {
+    "id": "rush-team",
+    "name": "Rush Team",
+    "url": "https://www.gameflare.com/embed/rush-team/",
+    "thumbnail": "https://data.gameflare.com/games/3190/RBU8wgShW0deWy-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "red-crucible-2",
+    "name": "Red Crucible 3: Firestorm",
+    "url": "https://www.gameflare.com/embed/red-crucible-2/",
+    "thumbnail": "https://data.gameflare.com/games/2942/L8z4tImSOMR9kG-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "monopoly-online",
+    "name": "Monopoly Online",
+    "url": "https://www.gameflare.com/embed/monopoly-online/",
+    "thumbnail": "https://data.gameflare.com/games/7027/6BmAnPQOB5JJaV-220-165.jpg",
+    "category": "Strategy"
+  },
+  {
+    "id": "sprunki-phase-5",
+    "name": "Sprunki Phase 5",
+    "url": "https://www.gameflare.com/embed/sprunki-phase-5/",
+    "thumbnail": "https://data.gameflare.com/games/10481/wCnNoGB0V55A4q-220-165.jpg",
+    "category": "Arcade"
+  },
+  {
+    "id": "sprunki-phase-3",
+    "name": "Sprunki Phase 3",
+    "url": "https://www.gameflare.com/embed/sprunki-phase-3/",
+    "thumbnail": "https://data.gameflare.com/games/10469/dYD9GDH7QKNlsp-220-165.jpg",
+    "category": "Arcade"
+  },
+  {
+    "id": "sprunki-phase-4",
+    "name": "Sprunki Phase 4",
+    "url": "https://www.gameflare.com/embed/sprunki-phase-4/",
+    "thumbnail": "https://data.gameflare.com/games/10475/9mca1ES3jtxj2f-220-165.jpg",
+    "category": "Arcade"
+  },
+  {
+    "id": "sprunki-phase-9",
+    "name": "Sprunki Phase 9",
+    "url": "https://www.gameflare.com/embed/sprunki-phase-9/",
+    "thumbnail": "https://data.gameflare.com/games/10561/KlWLmgXKoaMDF5-220-165.jpg",
+    "category": "Arcade"
+  },
+  {
+    "id": "sprunki-shifted-pepper-s-take",
+    "name": "Sprunki Shifted Pepper's Take",
+    "url": "https://www.gameflare.com/embed/sprunki-shifted-pepper-s-take/",
+    "thumbnail": "https://data.gameflare.com/games/11412/PSG83V4LXqFScc-220-165.jpg",
+    "category": "Arcade"
+  },
+  {
+    "id": "sprunki-phase-10",
+    "name": "Sprunki Phase 10",
+    "url": "https://www.gameflare.com/embed/sprunki-phase-10/",
+    "thumbnail": "https://data.gameflare.com/games/10566/XDhv5kEUqOHMzk-220-165.jpg",
+    "category": "Arcade"
+  },
+  {
+    "id": "sprunki-phase-7",
+    "name": "Sprunki Phase 7",
+    "url": "https://www.gameflare.com/embed/sprunki-phase-7/",
+    "thumbnail": "https://data.gameflare.com/games/10544/vgQnTxfqG5rtOW-220-165.jpg",
+    "category": "Arcade"
+  },
+  {
+    "id": "light-bot",
+    "name": "Lightbot",
+    "url": "https://www.gameflare.com/embed/light-bot/",
+    "thumbnail": "https://data.gameflare.com/games/252/unENRhAtB0OTOG-220-165.jpg",
+    "category": "Puzzle"
+  },
+  {
+    "id": "sprunki-phase-6",
+    "name": "Sprunki Phase 6",
+    "url": "https://www.gameflare.com/embed/sprunki-phase-6/",
+    "thumbnail": "https://data.gameflare.com/games/10499/wWi0Hvrsb25L8f-220-165.jpg",
+    "category": "Arcade"
+  },
+  {
+    "id": "wolf-family-simulator",
+    "name": "Wolf Family Simulator",
+    "url": "https://www.gameflare.com/embed/wolf-family-simulator/",
+    "thumbnail": "https://data.gameflare.com/games/10330/npUGSdhrEZgm5i-220-165.jpg",
+    "category": "Simulator"
+  },
+  {
+    "id": "my-land-king-defender",
+    "name": "My Land: King Defender",
+    "url": "https://www.gameflare.com/embed/my-land-king-defender/",
+    "thumbnail": "https://data.gameflare.com/games/9945/FKi2m8qxNS1Wa2-220-165.jpg",
+    "category": "Strategy"
+  },
+  {
+    "id": "mini-colony",
+    "name": "Mini Colony",
+    "url": "https://www.gameflare.com/embed/mini-colony/",
+    "thumbnail": "https://data.gameflare.com/games/9797/JAazjylEIycK1f-220-165.jpg",
+    "category": "Simulator"
+  },
+  {
+    "id": "house-builder",
+    "name": "House Builder",
+    "url": "https://www.gameflare.com/embed/house-builder/",
+    "thumbnail": "https://data.gameflare.com/games/9635/KEBxruJxxtARPn-220-165.jpg",
+    "category": "Simulator"
+  },
+  {
+    "id": "mini-farm",
+    "name": "Mini Farm",
+    "url": "https://www.gameflare.com/embed/mini-farm/",
+    "thumbnail": "https://data.gameflare.com/games/9654/aFHyAf29qVoL6z-220-165.jpg",
+    "category": "Simulator"
+  },
+  {
+    "id": "wizard-masters",
+    "name": "Wizard Masters",
+    "url": "https://www.gameflare.com/embed/wizard-masters/",
+    "thumbnail": "https://data.gameflare.com/games/10513/nqdq1M7y21tfUd-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "magic-arena-multiplayer",
+    "name": "Magic Arena Multiplayer",
+    "url": "https://www.gameflare.com/embed/magic-arena-multiplayer/",
+    "thumbnail": "https://data.gameflare.com/games/8708/ZQl8m4uMIdsIsa-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "counter-strike-classic",
+    "name": "Counter Strike Classic",
+    "url": "https://www.gameflare.com/embed/counter-strike-classic/",
+    "thumbnail": "https://data.gameflare.com/games/11229/LdrusYvsnq0cdr-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "half-life-deathmatch",
+    "name": "Half-Life: Deathmatch",
+    "url": "https://www.gameflare.com/embed/half-life-deathmatch/",
+    "thumbnail": "https://data.gameflare.com/games/11222/k1lJQCwxy6xJvY-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "obby-paintball-online-with-friends",
+    "name": "Obby Paintball: Online with Friends",
+    "url": "https://www.gameflare.com/embed/obby-paintball-online-with-friends/",
+    "thumbnail": "https://data.gameflare.com/games/11171/XijzS3ZAt3HTvO-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "veck-io",
+    "name": "Veck.io",
+    "url": "https://www.gameflare.com/embed/veck-io/",
+    "thumbnail": "https://data.gameflare.com/games/11159/v3Er2XSy04mFcT-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "project-exo-assault",
+    "name": "Project Exo Assault",
+    "url": "https://www.gameflare.com/embed/project-exo-assault/",
+    "thumbnail": "https://data.gameflare.com/games/11148/i3W9vY1SBNPUyj-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "2v2-io",
+    "name": "2v2.io",
+    "url": "https://www.gameflare.com/embed/2v2-io/",
+    "thumbnail": "https://data.gameflare.com/games/11069/RlVTlgPirwWUl6-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "team-fluffy-online",
+    "name": "Team Fluffy Online",
+    "url": "https://www.gameflare.com/embed/team-fluffy-online/",
+    "thumbnail": "https://data.gameflare.com/games/11068/7a7Zw6VT1HjevM-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "marine-showdown-standoff-in-afghanistan",
+    "name": "Marine Showdown: Standoff in Afghanistan",
+    "url": "https://www.gameflare.com/embed/marine-showdown-standoff-in-afghanistan/",
+    "thumbnail": "https://data.gameflare.com/games/11007/fccjcFeOdi7nun-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "dark-city-multiplayer",
+    "name": "Dark City: Multiplayer",
+    "url": "https://www.gameflare.com/embed/dark-city-multiplayer/",
+    "thumbnail": "https://data.gameflare.com/games/10991/SaCERTybg3Cc9G-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "fragen",
+    "name": "FRAGEN",
+    "url": "https://www.gameflare.com/embed/fragen/",
+    "thumbnail": "https://data.gameflare.com/games/10875/sHx1bWhbvV33Ov-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "rekill",
+    "name": "reKILL",
+    "url": "https://www.gameflare.com/embed/rekill/",
+    "thumbnail": "https://data.gameflare.com/games/10873/x9ELN5UjYSQCiT-220-165.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "death-race-car-destruction",
+    "name": "Death Race: Car Destruction",
+    "url": "https://www.gameflare.com/embed/death-race-car-destruction/",
+    "thumbnail": "https://data.gameflare.com/games/11512/A6NW5ar4sbpsGv-220-165.jpg",
+    "category": "Racing"
   }
 ]
