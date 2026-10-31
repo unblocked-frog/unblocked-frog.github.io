@@ -861,7 +861,7 @@ export default function App() {
                   className={`w-full h-full border-none transition-opacity duration-500 ${isGameLoading ? 'opacity-0' : 'opacity-100'}`}
                   title={selectedGame.name}
                   allow="autoplay; payment; fullscreen; microphone; focus-without-user-activation; screen-wake-lock; gamepad; clipboard-read; clipboard-write;"
-                  referrerPolicy="no-referrer"
+                  referrerPolicy="no-referrer-when-downgrade"
                   // @ts-ignore - legacy attributes for some game engines
                   webkitallowfullscreen="true" 
                   // @ts-ignore

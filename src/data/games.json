@@ -308,20 +308,6 @@
     "category": "Simulator"
   },
   {
-    "id": "fray-fight",
-    "name": "Fray Fight",
-    "url": "https://frayfight.com/game/",
-    "thumbnail": "https://cdn.playsaurus.com/build/assets/fray-fight-screenshot-Bn13KvoA.png",
-    "category": "Action"
-  },
-  {
-    "id": "zuno",
-    "name": "Zuno",
-    "url": "https://zv1y2i8p.play.gamezop.com/g/ByQxJnp7qRB",
-    "thumbnail": "https://business.gamezop.com/img/gamezop/ByQxJnp7qRB/cover.jpg?w=600&q=50",
-    "category": "Arcade"
-  },
-  {
     "id": "fruity",
     "name": "Fruity",
     "url": "https://zv1y2i8p.play.gamezop.com/g/mKZZW9NXW",
@@ -329,31 +315,10 @@
     "category": "Arcade"
   },
   {
-    "id": "tower-plant",
-    "name": "Tower Plant",
-    "url": "https://zv1y2i8p.play.gamezop.com/g/Umfd7yvMd",
-    "thumbnail": "https://business.gamezop.com/img/gamezop/Umfd7yvMd/cover.jpg?w=600&q=50",
-    "category": "Puzzle"
-  },
-  {
-    "id": "shade-hunters",
-    "name": "Shade Hunters",
-    "url": "https://zv1y2i8p.play.gamezop.com/g/9lpHai56Q",
-    "thumbnail": "https://business.gamezop.com/img/gamezop/9lpHai56Q/cover.jpg?w=600&q=50",
-    "category": "Action"
-  },
-  {
     "id": "sudoku",
     "name": "Sudoku",
     "url": "https://zv1y2i8p.play.gamezop.com/g/SJgx126Qc0H",
     "thumbnail": "https://business.gamezop.com/img/gamezop/SJgx126Qc0H/cover.jpg?w=300&q=50",
-    "category": "Puzzle"
-  },
-  {
-    "id": "luzo",
-    "name": "Luzo",
-    "url": "https://zv1y2i8p.play.gamezop.com/g/SkhljT2fdgb",
-    "thumbnail": "https://business.gamezop.com/img/gamezop/SkhljT2fdgb/cover.jpg?w=300&q=50",
     "category": "Puzzle"
   },
   {
@@ -476,13 +441,6 @@
     "category": "Action"
   },
   {
-    "id": "i-want-it-all",
-    "name": "I Want It All",
-    "url": "https://webgamer.io/en/g/i-want-it-all",
-    "thumbnail": "https://cdn.webgamer.io/games/i-want-it-all/i-want-it-all.480x.85pc.webp",
-    "category": "Arcade"
-  },
-  {
     "id": "overtide-io",
     "name": "Overtide.io",
     "url": "https://www.gameflare.com/embed/overtide-io/",
@@ -602,13 +560,6 @@
     "category": "Strategy"
   },
   {
-    "id": "ships-3d",
-    "name": "Ships 3D",
-    "url": "https://webgamer.io/en/g/ships-3d",
-    "thumbnail": "https://cdn.webgamer.io/games/ships-3d/ships-3d.480x.85pc.webp",
-    "category": "Strategy"
-  },
-  {
     "id": "basket-bros",
     "name": "Basket Bros",
     "url": "https://basketbros.io/",
@@ -679,24 +630,10 @@
     "category": "Sports"
   },
   {
-    "id": "burnout-city",
-    "name": "Burnout City",
-    "url": "https://zv1y2i8p.play.gamezop.com/g/B18e126m90H",
-    "thumbnail": "https://business.gamezop.com/img/gamezop/B18e126m90H/cover.jpg?w=600&q=50",
-    "category": "Racing"
-  },
-  {
     "id": "frontwars-io",
     "name": "FrontWars.io",
     "url": "https://frontwars.io/",
     "thumbnail": "https://cdn.webgamer.io/games/frontwars-io/frontwars-io.480x.85pc.webp",
-    "category": "Strategy"
-  },
-  {
-    "id": "shipo-io",
-    "name": "Shipo.io",
-    "url": "https://shipo.io/",
-    "thumbnail": "https://cdn.webgamer.io/games/shipo-io/shipo-io.480x.85pc.webp",
     "category": "Strategy"
   },
   {
@@ -711,13 +648,6 @@
     "name": "Gulper.io",
     "url": "https://gulper.io/",
     "thumbnail": "https://cdn.webgamer.io/games/gulper-io/gulper-io.480x.85pc.webp",
-    "category": "Arcade"
-  },
-  {
-    "id": "paper-io-2",
-    "name": "Paper.io 2",
-    "url": "https://paper-io.com/",
-    "thumbnail": "https://cdn.webgamer.io/games/paper-io-2/paper-io-2.480x.85pc.webp",
     "category": "Arcade"
   },
   {
@@ -763,46 +693,11 @@
     "category": "Action"
   },
   {
-    "id": "steal-an-egg",
-    "name": "Steal An Egg!",
-    "url": "https://www.gameflare.com/embed/steal-an-egg/",
-    "thumbnail": "https://data.gameflare.com/games/11456/Ie1XcO6vkHUJ3H-220-165.jpg",
-    "category": "Arcade"
-  },
-  {
-    "id": "steal-a-dinosaur-eggs",
-    "name": "Steal a Dinosaur Eggs",
-    "url": "https://www.gameflare.com/embed/steal-a-dinosaur-eggs/",
-    "thumbnail": "https://data.gameflare.com/games/11486/6ypcwiqEcdoqnV-220-165.jpg",
-    "category": "Arcade"
-  },
-  {
     "id": "bubble-gum-simulator",
     "name": "Bubble Gum Simulator",
     "url": "https://www.gameflare.com/embed/bubble-gum-simulator/",
     "thumbnail": "https://data.gameflare.com/games/11484/cqBPgZfV1vUWH0-220-165.jpg",
     "category": "Simulator"
-  },
-  {
-    "id": "grow-a-chicken-fighter",
-    "name": "Grow a Chicken Fighter",
-    "url": "https://www.gameflare.com/embed/grow-a-chicken-fighter/",
-    "thumbnail": "https://data.gameflare.com/games/11473/IlM1NykN1baCTo-220-165.jpg",
-    "category": "Action"
-  },
-  {
-    "id": "monkey-bomb-tag-online",
-    "name": "Monkey Bomb Tag Online",
-    "url": "https://www.gameflare.com/embed/monkey-bomb-tag-online/",
-    "thumbnail": "https://data.gameflare.com/games/11397/2qBakOIyg7Vd48-220-165.jpg",
-    "category": "Action"
-  },
-  {
-    "id": "obby-fly-for-brainrots",
-    "name": "Obby: Fly for Brainrots!",
-    "url": "https://www.gameflare.com/embed/obby-fly-for-brainrots/",
-    "thumbnail": "https://data.gameflare.com/games/11295/UWPvrvLohfZaQa-220-165.jpg",
-    "category": "Arcade"
   },
   {
     "id": "escape-lava-for-brainrots",
@@ -816,13 +711,6 @@
     "name": "Obby: Dig Brainrots",
     "url": "https://www.gameflare.com/embed/obby-dig-brainrots/",
     "thumbnail": "https://data.gameflare.com/games/11273/vqUdx7eVfpqPp4-220-165.jpg",
-    "category": "Arcade"
-  },
-  {
-    "id": "hatch-brainrot-online",
-    "name": "Hatch Brainrot Online",
-    "url": "https://www.gameflare.com/embed/hatch-brainrot-online/",
-    "thumbnail": "https://data.gameflare.com/games/11137/D7QhzL6SeAPNx2-220-165.jpg",
     "category": "Arcade"
   },
   {
@@ -840,25 +728,11 @@
     "category": "Action"
   },
   {
-    "id": "push-rock-for-brainrots",
-    "name": "Push Rock For Brainrots",
-    "url": "https://www.gameflare.com/embed/push-rock-for-brainrots/",
-    "thumbnail": "https://data.gameflare.com/games/11449/Vk6rRtvhYFpw0i-220-165.jpg",
-    "category": "Arcade"
-  },
-  {
     "id": "tsunami-brainrots-online",
     "name": "Tsunami Brainrots Online",
     "url": "https://www.gameflare.com/embed/tsunami-brainrots-online/",
     "thumbnail": "https://data.gameflare.com/games/11248/zNxhCHqYQ1LjEw-220-165.jpg",
     "category": "Arcade"
-  },
-  {
-    "id": "brainrot-arena-online",
-    "name": "Brainrot Arena Online",
-    "url": "https://www.gameflare.com/embed/brainrot-arena-online/",
-    "thumbnail": "https://data.gameflare.com/games/11288/DJUHNX7KViyERl-220-165.jpg",
-    "category": "Action"
   },
   {
     "id": "lucky-brainrot-blocks-online",
@@ -882,25 +756,11 @@
     "category": "Arcade"
   },
   {
-    "id": "build-a-bridge-for-brainrots",
-    "name": "Build a Bridge for Brainrots",
-    "url": "https://www.gameflare.com/embed/build-a-bridge-for-brainrots/",
-    "thumbnail": "https://data.gameflare.com/games/11444/Dl3y0fAWhMLc3L-220-165.jpg",
-    "category": "Puzzle"
-  },
-  {
     "id": "float-for-brainrots",
     "name": "Float for Brainrots",
     "url": "https://www.gameflare.com/embed/float-for-brainrots/",
     "thumbnail": "https://data.gameflare.com/games/11354/zyxxh2wApHIV9Z-220-165.jpg",
     "category": "Arcade"
-  },
-  {
-    "id": "obby-skateboard-for-brainrots",
-    "name": "Obby: Skateboard for Brainrots",
-    "url": "https://www.gameflare.com/embed/obby-skateboard-for-brainrots/",
-    "thumbnail": "https://data.gameflare.com/games/11338/BPH6FJ1kmBWQod-220-165.jpg",
-    "category": "Sports"
   },
   {
     "id": "escapewaves-io",
@@ -910,13 +770,6 @@
     "category": "Action"
   },
   {
-    "id": "obby-brainrot-parkour",
-    "name": "Obby: Brainrot Parkour!",
-    "url": "https://www.gameflare.com/embed/obby-brainrot-parkour/",
-    "thumbnail": "https://data.gameflare.com/games/11317/Q3WWjSEJrSwcZx-220-165.jpg",
-    "category": "Arcade"
-  },
-  {
     "id": "break-a-lucky-egg-brainrots",
     "name": "Break a Lucky Egg Brainrots",
     "url": "https://www.gameflare.com/embed/break-a-lucky-egg-brainrots/",
@@ -924,31 +777,10 @@
     "category": "Arcade"
   },
   {
-    "id": "swing-obby-for-brainrots",
-    "name": "Swing Obby for Brainrots!",
-    "url": "https://www.gameflare.com/embed/swing-obby-for-brainrots/",
-    "thumbnail": "https://data.gameflare.com/games/11284/e1ry195rO1TDgw-220-165.jpg",
-    "category": "Arcade"
-  },
-  {
-    "id": "break-a-lucky-block",
-    "name": "Break a Lucky Block!",
-    "url": "https://www.gameflare.com/embed/break-a-lucky-block/",
-    "thumbnail": "https://data.gameflare.com/games/11243/6r12UjnOmPHzeh-220-165.jpg",
-    "category": "Arcade"
-  },
-  {
     "id": "steal-brainrot-eggs",
     "name": "Steal Brainrot Eggs",
     "url": "https://www.gameflare.com/embed/steal-brainrot-eggs/",
     "thumbnail": "https://data.gameflare.com/games/11189/eiDU7IyaJkn1wg-220-165.jpg",
-    "category": "Arcade"
-  },
-  {
-    "id": "catch-a-fish-obby",
-    "name": "Catch a Fish Obby",
-    "url": "https://www.gameflare.com/embed/catch-a-fish-obby/",
-    "thumbnail": "https://data.gameflare.com/games/11163/YGuOU0XANp6WaT-220-165.jpg",
     "category": "Arcade"
   },
   {
@@ -973,39 +805,11 @@
     "category": "Adventure"
   },
   {
-    "id": "melon-sandbox",
-    "name": "Melon Sandbox",
-    "url": "https://www.gameflare.com/embed/melon-sandbox/",
-    "thumbnail": "https://data.gameflare.com/games/10240/WbsP7C6K57nTrH-220-165.jpg",
-    "category": "Simulator"
-  },
-  {
-    "id": "gamer-s-mod",
-    "name": "Gamer's Mod",
-    "url": "https://www.gameflare.com/embed/gamer-s-mod/",
-    "thumbnail": "https://data.gameflare.com/games/11345/N9FEuq0gEPDf3s-220-165.jpg",
-    "category": "Simulator"
-  },
-  {
-    "id": "animal-hospital-online",
-    "name": "Animal Hospital: Online",
-    "url": "https://www.gameflare.com/embed/animal-hospital-online/",
-    "thumbnail": "https://data.gameflare.com/games/11445/sCbK2zSNH8ExBb-220-165.jpg",
-    "category": "Simulator"
-  },
-  {
     "id": "floating-sandbox",
     "name": "Floating Sandbox",
     "url": "https://www.gameflare.com/embed/floating-sandbox/",
     "thumbnail": "https://data.gameflare.com/games/11416/rPtcZLQ03Hfe4I-220-165.jpg",
     "category": "Simulator"
-  },
-  {
-    "id": "dude-theft-wars",
-    "name": "Dude Theft Wars",
-    "url": "https://www.gameflare.com/embed/dude-theft-wars/",
-    "thumbnail": "https://data.gameflare.com/games/10213/fhAdRFc7QwzPpc-220-165.jpg",
-    "category": "Action"
   },
   {
     "id": "wacky-flip",
@@ -1015,32 +819,11 @@
     "category": "Sports"
   },
   {
-    "id": "no-pain-no-gain-ragdoll-sandbox",
-    "name": "No Pain No Gain - Ragdoll Sandbox",
-    "url": "https://www.gameflare.com/embed/no-pain-no-gain-ragdoll-sandbox/",
-    "thumbnail": "https://data.gameflare.com/games/11221/5IRyJ0DzELJZyI-220-165.jpg",
-    "category": "Simulator"
-  },
-  {
     "id": "mr-racer-stunt-mania",
     "name": "MR RACER Stunt Mania",
     "url": "https://www.gameflare.com/embed/mr-racer-stunt-mania/",
     "thumbnail": "https://data.gameflare.com/games/11193/kqH30vZYKeD70K-220-165.jpg",
     "category": "Racing"
-  },
-  {
-    "id": "traffic-jam-3d",
-    "name": "Traffic Jam 3D",
-    "url": "https://www.gameflare.com/embed/traffic-jam-3d/",
-    "thumbnail": "https://data.gameflare.com/games/9781/tQnXJ0sxJJBIzJ-220-165.jpg",
-    "category": "Racing"
-  },
-  {
-    "id": "paint-and-seek-online",
-    "name": "Paint and Seek! (Online)",
-    "url": "https://www.gameflare.com/embed/paint-and-seek-online/",
-    "thumbnail": "https://data.gameflare.com/games/11461/edF0044hmefp4k-220-165.jpg",
-    "category": "Action"
   },
   {
     "id": "rivals-roblox",
@@ -1099,13 +882,6 @@
     "category": "Simulator"
   },
   {
-    "id": "tag-online-bomb-3d",
-    "name": "Tag Online: Bomb 3D",
-    "url": "https://www.gameflare.com/embed/tag-online-bomb-3d/",
-    "thumbnail": "https://data.gameflare.com/games/11425/B5nIfHIQSMYgqy-220-165.jpg",
-    "category": "Action"
-  },
-  {
     "id": "meccha-hunt",
     "name": "Meccha Hunt",
     "url": "https://www.gameflare.com/embed/meccha-hunt/",
@@ -1160,13 +936,6 @@
     "url": "https://www.gameflare.com/embed/molehill-empire-2/",
     "thumbnail": "https://data.gameflare.com/games/11258/JpKYtqHZSsSDc2-220-165.jpg",
     "category": "Simulator"
-  },
-  {
-    "id": "8-ball-pool-multiplayer",
-    "name": "8 Ball Pool Multiplayer",
-    "url": "https://www.gameflare.com/embed/8-ball-pool-multiplayer/",
-    "thumbnail": "https://data.gameflare.com/games/3350/l7M9Hu3bdXQ8L7-220-165.jpg",
-    "category": "Sports"
   },
   {
     "id": "rush-team",
@@ -1295,34 +1064,6 @@
     "category": "Action"
   },
   {
-    "id": "magic-arena-multiplayer",
-    "name": "Magic Arena Multiplayer",
-    "url": "https://www.gameflare.com/embed/magic-arena-multiplayer/",
-    "thumbnail": "https://data.gameflare.com/games/8708/ZQl8m4uMIdsIsa-220-165.jpg",
-    "category": "Action"
-  },
-  {
-    "id": "counter-strike-classic",
-    "name": "Counter Strike Classic",
-    "url": "https://www.gameflare.com/embed/counter-strike-classic/",
-    "thumbnail": "https://data.gameflare.com/games/11229/LdrusYvsnq0cdr-220-165.jpg",
-    "category": "Action"
-  },
-  {
-    "id": "half-life-deathmatch",
-    "name": "Half-Life: Deathmatch",
-    "url": "https://www.gameflare.com/embed/half-life-deathmatch/",
-    "thumbnail": "https://data.gameflare.com/games/11222/k1lJQCwxy6xJvY-220-165.jpg",
-    "category": "Action"
-  },
-  {
-    "id": "obby-paintball-online-with-friends",
-    "name": "Obby Paintball: Online with Friends",
-    "url": "https://www.gameflare.com/embed/obby-paintball-online-with-friends/",
-    "thumbnail": "https://data.gameflare.com/games/11171/XijzS3ZAt3HTvO-220-165.jpg",
-    "category": "Action"
-  },
-  {
     "id": "veck-io",
     "name": "Veck.io",
     "url": "https://www.gameflare.com/embed/veck-io/",
@@ -1344,31 +1085,10 @@
     "category": "Action"
   },
   {
-    "id": "team-fluffy-online",
-    "name": "Team Fluffy Online",
-    "url": "https://www.gameflare.com/embed/team-fluffy-online/",
-    "thumbnail": "https://data.gameflare.com/games/11068/7a7Zw6VT1HjevM-220-165.jpg",
-    "category": "Action"
-  },
-  {
     "id": "marine-showdown-standoff-in-afghanistan",
     "name": "Marine Showdown: Standoff in Afghanistan",
     "url": "https://www.gameflare.com/embed/marine-showdown-standoff-in-afghanistan/",
     "thumbnail": "https://data.gameflare.com/games/11007/fccjcFeOdi7nun-220-165.jpg",
-    "category": "Action"
-  },
-  {
-    "id": "dark-city-multiplayer",
-    "name": "Dark City: Multiplayer",
-    "url": "https://www.gameflare.com/embed/dark-city-multiplayer/",
-    "thumbnail": "https://data.gameflare.com/games/10991/SaCERTybg3Cc9G-220-165.jpg",
-    "category": "Action"
-  },
-  {
-    "id": "fragen",
-    "name": "FRAGEN",
-    "url": "https://www.gameflare.com/embed/fragen/",
-    "thumbnail": "https://data.gameflare.com/games/10875/sHx1bWhbvV33Ov-220-165.jpg",
     "category": "Action"
   },
   {
@@ -1377,12 +1097,5 @@
     "url": "https://www.gameflare.com/embed/rekill/",
     "thumbnail": "https://data.gameflare.com/games/10873/x9ELN5UjYSQCiT-220-165.jpg",
     "category": "Action"
-  },
-  {
-    "id": "death-race-car-destruction",
-    "name": "Death Race: Car Destruction",
-    "url": "https://www.gameflare.com/embed/death-race-car-destruction/",
-    "thumbnail": "https://data.gameflare.com/games/11512/A6NW5ar4sbpsGv-220-165.jpg",
-    "category": "Racing"
   }
 ]
