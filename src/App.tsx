@@ -833,13 +833,22 @@ export default function App() {
                         <p className="text-[10px] text-frog-light uppercase font-bold tracking-[0.3em] opacity-40">Loading Game World</p>
                         
                         {loadingTime > 5 && (
-                          <motion.p 
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            className="text-[10px] text-frog-main font-bold max-w-[200px] leading-relaxed"
+                          <motion.div 
+                            initial={{ opacity: 0, y: 5 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            className="space-y-2 flex flex-col items-center pt-1"
                           >
-                            TIP: Heavy game detected. Please wait, it will start shortly! 🐸
-                          </motion.p>
+                            <p className="text-[11px] text-frog-main font-bold max-w-[260px] leading-relaxed">
+                              TIP: Jika layar game tetap hitam atau dibatasi penyedia, kamu bisa buka langsung:
+                            </p>
+                            <button
+                              onClick={() => window.open(selectedGame.url, '_blank')}
+                              className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-frog-main text-black rounded-lg text-xs font-bold uppercase tracking-wider hover:bg-white transition-colors cursor-pointer shadow-md"
+                            >
+                              <ExternalLink className="w-3.5 h-3.5" />
+                              Buka di Tab Baru
+                            </button>
+                          </motion.div>
                         )}
                       </div>
                     </motion.div>
