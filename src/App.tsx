@@ -12,8 +12,8 @@ import {
   Play, 
   ShieldAlert, 
   Maximize, 
+  Minimize,
   Search, 
-  ExternalLink, 
   VolumeX, 
   Volume2,
   Sparkles,
@@ -208,7 +208,21 @@ export default function App() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [isTabHidden, setIsTabHidden] = useState(false);
   const [showMuteNotif, setShowMuteNotif] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const gameContainerRef = useRef<HTMLDivElement>(null);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+
+  // Sync fullscreen state
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+      if (document.fullscreenElement && iframeRef.current) {
+        iframeRef.current.focus();
+      }
+    };
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+    return () => document.removeEventListener("fullscreenchange", handleFullscreenChange);
+  }, []);
 
   // Auto-Mute on Tab Switch
   useEffect(() => {
@@ -745,26 +759,27 @@ export default function App() {
               </div>
               <div className="flex items-center gap-2">
                 <button 
-                  onClick={() => window.open(selectedGame.url, '_blank')}
-                  className="p-2 hover:bg-white/10 rounded-full transition-colors group flex items-center gap-2"
-                  aria-label="Open in new window"
-                >
-                  <ExternalLink className="w-5 h-5 text-frog-light group-hover:text-frog-main transition-colors" />
-                  <span className="text-[10px] font-bold text-frog-light uppercase hidden sm:block">Open New Tab</span>
-                </button>
-                <div className="h-6 w-[1px] bg-white/10 mx-1"></div>
-                <button 
                   onClick={toggleFullscreen}
-                  className="p-2 hover:bg-white/10 rounded-full transition-colors group flex items-center gap-2"
-                  aria-label="Toggle Fullscreen"
+                  className="px-3 py-1.5 bg-frog-main/10 hover:bg-frog-main text-frog-main hover:text-black rounded-xl transition-all group flex items-center gap-2 border border-frog-main/20 cursor-pointer"
+                  aria-label={isFullscreen ? "Exit Fullscreen" : "Toggle Fullscreen"}
+                  title="Fullscreen Mode (Locks mouse cursor & expands game)"
                 >
-                  <Maximize className="w-5 h-5 text-frog-light group-hover:text-frog-main transition-colors" />
-                  <span className="text-[10px] font-bold text-frog-light uppercase hidden sm:block">Fullscreen</span>
+                  {isFullscreen ? (
+                    <>
+                      <Minimize className="w-4 h-4 transition-colors" />
+                      <span className="text-xs font-black uppercase hidden sm:block">Exit Fullscreen</span>
+                    </>
+                  ) : (
+                    <>
+                      <Maximize className="w-4 h-4 transition-colors" />
+                      <span className="text-xs font-black uppercase hidden sm:block">Fullscreen</span>
+                    </>
+                  )}
                 </button>
                 <div className="h-6 w-[1px] bg-white/10 mx-1"></div>
                 <button 
                   onClick={() => setSelectedGame(null)}
-                  className="p-2 hover:bg-white/10 rounded-full transition-colors group"
+                  className="p-2 hover:bg-white/10 rounded-full transition-colors group cursor-pointer"
                   aria-label="Close game"
                 >
                   <X className="w-6 h-6 group-hover:rotate-90 transition-transform" />
@@ -772,8 +787,13 @@ export default function App() {
               </div>
             </div>
             
-            <div className="w-full flex-none flex flex-col md:flex-row relative bg-black border-b border-white/10 h-[85vh] min-h-[600px]">
-              <div className="flex-1 relative">
+            <div className={`w-full flex-none flex flex-col md:flex-row relative bg-black border-b border-white/10 transition-all duration-300 ${
+              isFullscreen ? 'h-[calc(100vh-68px)] flex-1' : 'h-[85vh] min-h-[600px]'
+            }`}>
+              <div 
+                className="flex-1 relative cursor-default"
+                onClick={() => iframeRef.current?.focus()}
+              >
                 {showInterstitial ? (
                   <div className="absolute inset-0 z-10 bg-[#0a0c10] flex flex-col items-center justify-center p-8 text-center">
                     <div className="max-w-xl w-full space-y-8">
@@ -782,7 +802,7 @@ export default function App() {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setShowInterstitial(false)}
-                        className="bg-frog-main text-black px-12 py-4 rounded-xl font-display font-black text-xl hover:shadow-[0_0_20px_rgba(101,255,143,0.3)] transition-all mx-auto"
+                        className="bg-frog-main text-black px-12 py-4 rounded-xl font-display font-black text-xl hover:shadow-[0_0_20px_rgba(101,255,143,0.3)] transition-all mx-auto cursor-pointer"
                       >
                         PLAY
                       </motion.button>
@@ -838,15 +858,15 @@ export default function App() {
                             animate={{ opacity: 1, y: 0 }}
                             className="space-y-2 flex flex-col items-center pt-1"
                           >
-                            <p className="text-[11px] text-frog-main font-bold max-w-[260px] leading-relaxed">
-                              TIP: Jika layar game tetap hitam atau dibatasi penyedia, kamu bisa buka langsung:
+                            <p className="text-[11px] text-frog-main font-bold max-w-[280px] leading-relaxed">
+                              TIP: For 3D controls and mouse lock, launch Fullscreen mode:
                             </p>
                             <button
-                              onClick={() => window.open(selectedGame.url, '_blank')}
-                              className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-frog-main text-black rounded-lg text-xs font-bold uppercase tracking-wider hover:bg-white transition-colors cursor-pointer shadow-md"
+                              onClick={toggleFullscreen}
+                              className="inline-flex items-center gap-1.5 px-4 py-2 bg-frog-main text-black rounded-xl text-xs font-black uppercase tracking-wider hover:bg-white transition-all cursor-pointer shadow-lg"
                             >
-                              <ExternalLink className="w-3.5 h-3.5" />
-                              Buka di Tab Baru
+                              <Maximize className="w-3.5 h-3.5" />
+                              Play Fullscreen
                             </button>
                           </motion.div>
                         )}
@@ -856,11 +876,16 @@ export default function App() {
                 </AnimatePresence>
 
                 <iframe
+                  ref={iframeRef}
                   src={selectedGame.url}
-                  onLoad={() => setIsGameLoading(false)}
+                  tabIndex={0}
+                  onLoad={() => {
+                    setIsGameLoading(false);
+                    setTimeout(() => iframeRef.current?.focus(), 150);
+                  }}
                   className={`w-full h-full border-none transition-opacity duration-500 ${isGameLoading ? 'opacity-0' : 'opacity-100'}`}
                   title={selectedGame.name}
-                  allow="autoplay; payment; fullscreen; microphone; focus-without-user-activation; screen-wake-lock; gamepad; clipboard-read; clipboard-write;"
+                  allow="accelerometer; autoplay; clipboard-read; clipboard-write; encrypted-media; fullscreen; gamepad; gyroscope; microphone; payment; picture-in-picture; pointer-lock; screen-wake-lock; web-share;"
                   referrerPolicy="no-referrer-when-downgrade"
                   // @ts-ignore - legacy attributes for some game engines
                   webkitallowfullscreen="true" 
@@ -871,10 +896,10 @@ export default function App() {
                   allowFullScreen
                 />
                 
-                {/* Connection Hint */}
-                <div className="absolute bottom-2 left-1/2 -translate-x-1/2 z-10 bg-black/60 backdrop-blur-md px-4 py-1.5 rounded-full border border-white/5 pointer-events-none">
-                  <p className="text-[10px] text-frog-light font-medium uppercase tracking-wider">
-                    Game not loading? Click <span className="text-frog-main font-bold">"Open New Tab"</span> above!
+                {/* Fullscreen & Cursor Hint */}
+                <div className="absolute bottom-2 left-1/2 -translate-x-1/2 z-10 bg-black/75 backdrop-blur-md px-4 py-1.5 rounded-full border border-white/10 pointer-events-none">
+                  <p className="text-[10px] text-frog-light font-medium uppercase tracking-wider flex items-center gap-1.5">
+                    <span>💡 Tip:</span> Click inside the game or press <span className="text-frog-main font-bold">Fullscreen</span> for full mouse cursor lock
                   </p>
                 </div>
               </div>

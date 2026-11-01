@@ -5,12 +5,29 @@ export function AdsterraNativeBanner({ className = "" }: { className?: string })
 
   useEffect(() => {
     const scriptId = "adsterra-native-script-54f52fa9";
+    const containerId = "container-54f52fa95e674ed6bcd769649b5c8b12";
     if (!document.getElementById(scriptId)) {
+      // Set options
+      // @ts-ignore
+      window.atAsyncOptions = {
+        key: "54f52fa95e674ed6bcd769649b5c8b12",
+        format: "js",
+        async: true,
+        container: containerId,
+        params: {}
+      };
+
       const script = document.createElement("script");
       script.id = scriptId;
       script.async = true;
       script.setAttribute("data-cfasync", "false");
-      script.src = "https://bauval.org/21/54f52fa95e674ed6bcd769649b5c8b12";
+      script.src = "//www.highperformanceformat.com/54f52fa95e674ed6bcd769649b5c8b12/invoke.js";
+      script.onerror = () => {
+        const fallback = document.createElement("script");
+        fallback.async = true;
+        fallback.src = "//www.topcreativeformat.com/54f52fa95e674ed6bcd769649b5c8b12/invoke.js";
+        document.body.appendChild(fallback);
+      };
       document.body.appendChild(script);
     }
   }, []);

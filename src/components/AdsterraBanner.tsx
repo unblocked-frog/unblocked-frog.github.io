@@ -74,41 +74,8 @@ export function AdsterraBanner({
     iframe.style.display = 'block';
     iframe.scrolling = 'no';
     iframe.title = `Adsterra ${format} Banner`;
+    iframe.src = `/adsterra-frame.html?key=${encodeURIComponent(config.key)}&width=${config.width}&height=${config.height}`;
 
-    const docContent = `<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      margin: 0;
-      padding: 0;
-      background: transparent;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-      width: ${config.width}px;
-      height: ${config.height}px;
-    }
-  </style>
-</head>
-<body>
-  <script type="text/javascript">
-    atOptions = {
-      'key' : '${config.key}',
-      'format' : 'iframe',
-      'height' : ${config.height},
-      'width' : ${config.width},
-      'params' : {}
-    };
-  </script>
-  <script type="text/javascript" src="https://bauval.org/22/${config.key}"></script>
-</body>
-</html>`;
-
-    iframe.srcdoc = docContent;
     container.appendChild(iframe);
   }, [format, config.key, config.width, config.height]);
 
