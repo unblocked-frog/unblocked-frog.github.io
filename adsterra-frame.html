@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Advertisement</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+    }
+    #ad-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="ad-container"></div>
+  <script type="text/javascript">
+    (function() {
+      try {
+        var params = new URLSearchParams(window.location.search);
+        var key = params.get('key');
+        var width = parseInt(params.get('width'), 10) || 300;
+        var height = parseInt(params.get('height'), 10) || 250;
+
+        if (!key) return;
+
+        window.atOptions = {
+          'key': key,
+          'format': 'iframe',
+          'height': height,
+          'width': width,
+          'params': {}
+        };
+
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = '//www.highperformanceformat.com/' + encodeURIComponent(key) + '/invoke.js';
+        
+        script.onerror = function() {
+          // Fallback to alternative Adsterra CDN domain
+          var fallback = document.createElement('script');
+          fallback.type = 'text/javascript';
+          fallback.src = '//www.topcreativeformat.com/' + encodeURIComponent(key) + '/invoke.js';
+          document.body.appendChild(fallback);
+        };
+
+        document.body.appendChild(script);
+      } catch (err) {
+        console.error('Adsterra frame error:', err);
+      }
+    })();
+  </script>
+</body>
+</html>
